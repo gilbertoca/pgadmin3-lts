@@ -20,7 +20,7 @@
 class StringClientData : public wxClientData
 {
 public:
-	StringClientData(const wxChar *c)
+	StringClientData(const wxString &c)
 	{
 		str = c;
 	}

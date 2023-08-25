@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".github">
+        <df name="workflows">
+        </df>
+      </df>
+      <df name="autom4te.cache">
+      </df>
+      <df name="branding">
+      </df>
+      <df name="config">
+      </df>
+      <df name="docs">
+        <df name="cs_CZ">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="de_DE">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="en_US">
+          <df name="_build">
+            <df name="doctrees">
+            </df>
+            <df name="htmlhelp">
+              <df name="_images">
+              </df>
+              <df name="_static">
+              </df>
+            </df>
+          </df>
+          <df name="hints">
+          </df>
+          <df name="images">
+          </df>
+        </df>
+        <df name="es_ES">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="fi_FI">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="fr_FR">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="sl_SI">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="zh_CN">
+          <df name="hints">
+          </df>
+        </df>
+        <df name="zh_TW">
+          <df name="hints">
+          </df>
+        </df>
+      </df>
+      <df name="i18n">
+        <df name="af_ZA">
+        </df>
+        <df name="ar_SA">
+        </df>
+        <df name="bg_BG">
+        </df>
+        <df name="ca_ES">
+        </df>
+        <df name="cs_CZ">
+        </df>
+        <df name="da_DK">
+        </df>
+        <df name="de_CH">
+        </df>
+        <df name="de_DE">
+        </df>
+        <df name="el_GR">
+        </df>
+        <df name="es_ES">
+        </df>
+        <df name="fa_IR">
+        </df>
+        <df name="fi_FI">
+        </df>
+        <df name="fr_FR">
+        </df>
+        <df name="gl_ES">
+        </df>
+        <df name="gu_IN">
+        </df>
+        <df name="hi_IN">
+        </df>
+        <df name="hr_HR">
+        </df>
+        <df name="hu_HU">
+        </df>
+        <df name="id_ID">
+        </df>
+        <df name="is_IS">
+        </df>
+        <df name="it_IT">
+        </df>
+        <df name="ja_JP">
+        </df>
+        <df name="ko_KR">
+        </df>
+        <df name="lt_LT">
+        </df>
+        <df name="lv_LV">
+        </df>
+        <df name="mk_MK">
+        </df>
+        <df name="nb_NO">
+        </df>
+        <df name="nl_NL">
+        </df>
+        <df name="pl_PL">
+        </df>
+        <df name="pt_BR">
+        </df>
+        <df name="pt_PT">
+        </df>
+        <df name="ro_RO">
+        </df>
+        <df name="ru_RU">
+        </df>
+        <df name="sk_SK">
+        </df>
+        <df name="sl_SI">
+        </df>
+        <df name="sr_RS">
+        </df>
+        <df name="sv_SE">
+        </df>
+        <df name="te_IN">
+        </df>
+        <df name="tl_PH">
+        </df>
+        <df name="tr_TR">
+        </df>
+        <df name="uk_UA">
+        </df>
+        <df name="ur_PK">
+        </df>
+        <df name="vi_VN">
+        </df>
+        <df name="zh_CN">
+        </df>
+        <df name="zh_TW">
+        </df>
+      </df>
+      <df name="pgadmin">
+        <df name=".deps">
+        </df>
+        <df name="agent">
+          <df name=".deps">
+          </df>
+          <in>dlgJob.cpp</in>
+          <in>dlgSchedule.cpp</in>
+          <in>dlgStep.cpp</in>
+          <in>pgaJob.cpp</in>
+          <in>pgaSchedule.cpp</in>
+          <in>pgaStep.cpp</in>
+        </df>
+        <df name="ctl">
+          <df name=".deps">
+          </df>
+          <in>calbox.cpp</in>
+          <in>ctlAuiNotebook.cpp</in>
+          <in>ctlCheckTreeView.cpp</in>
+          <in>ctlColourPicker.cpp</in>
+          <in>ctlComboBox.cpp</in>
+          <in>ctlDefaultSecurityPanel.cpp</in>
+          <in>ctlListView.cpp</in>
+          <in>ctlMenuToolbar.cpp</in>
+          <in>ctlProgressStatusBar.cpp</in>
+          <in>ctlSQLBox.cpp</in>
+          <in>ctlSQLGrid.cpp</in>
+          <in>ctlSQLResult.cpp</in>
+          <in>ctlSeclabelPanel.cpp</in>
+          <in>ctlSecurityPanel.cpp</in>
+          <in>ctlTree.cpp</in>
+          <in>explainCanvas.cpp</in>
+          <in>explainShape.cpp</in>
+          <in>timespin.cpp</in>
+          <in>xh_calb.cpp</in>
+          <in>xh_ctlchecktreeview.cpp</in>
+          <in>xh_ctlcolourpicker.cpp</in>
+          <in>xh_ctlcombo.cpp</in>
+          <in>xh_ctltree.cpp</in>
+          <in>xh_sqlbox.cpp</in>
+          <in>xh_timespin.cpp</in>
+        </df>
+        <df name="db">
+          <df name=".deps">
+          </df>
+          <in>keywords.c</in>
+          <in>pgConn.cpp</in>
+          <in>pgQueryThread.cpp</in>
+          <in>pgSet.cpp</in>
+        </df>
+        <df name="dd">
+          <df name="dditems">
+            <df name="figures">
+              <df name=".deps">
+              </df>
+              <df name="xml">
+                <df name=".deps">
+                </df>
+                <in>ddXmlStorage.cpp</in>
+              </df>
+              <in>ddColumnFigure.cpp</in>
+              <in>ddColumnKindIcon.cpp</in>
+              <in>ddColumnOptionIcon.cpp</in>
+              <in>ddRelationshipFigure.cpp</in>
+              <in>ddRelationshipItem.cpp</in>
+              <in>ddRelationshipTerminal.cpp</in>
+              <in>ddTableFigure.cpp</in>
+              <in>ddTextTableItemFigure.cpp</in>
+            </df>
+            <df name="handles">
+              <df name=".deps">
+              </df>
+              <in>ddAddColButtonHandle.cpp</in>
+              <in>ddAddFkButtonHandle.cpp</in>
+              <in>ddMinMaxTableButtonHandle.cpp</in>
+              <in>ddRemoveTableButtonHandle.cpp</in>
+              <in>ddScrollBarHandle.cpp</in>
+              <in>ddSouthTableSizeHandle.cpp</in>
+            </df>
+            <df name="locators">
+              <df name=".deps">
+              </df>
+              <in>ddAddColLocator.cpp</in>
+              <in>ddAddFkLocator.cpp</in>
+              <in>ddMinMaxTableLocator.cpp</in>
+              <in>ddRemoveTableLocator.cpp</in>
+              <in>ddScrollBarTableLocator.cpp</in>
+              <in>ddTableBottomLocator.cpp</in>
+            </df>
+            <df name="tools">
+              <df name=".deps">
+              </df>
+              <in>ddColumnFigureTool.cpp</in>
+              <in>ddColumnTextTool.cpp</in>
+            </df>
+            <df name="utilities">
+              <df name=".deps">
+              </df>
+              <in>ddPrecisionScaleDialog.cpp</in>
+              <in>ddSelectKindFksDialog.cpp</in>
+              <in>ddTableNameDialog.cpp</in>
+            </df>
+          </df>
+          <df name="ddmodel">
+            <df name=".deps">
+            </df>
+            <in>ddBrowserDataContainer.cpp</in>
+            <in>ddDBReverseEnginering.cpp</in>
+            <in>ddDatabaseDesign.cpp</in>
+            <in>ddDrawingEditor.cpp</in>
+            <in>ddDrawingView.cpp</in>
+            <in>ddGenerationWizard.cpp</in>
+            <in>ddModelBrowser.cpp</in>
+          </df>
+        </df>
+        <df name="debugger">
+          <df name=".deps">
+          </df>
+          <in>ctlMessageWindow.cpp</in>
+          <in>ctlResultGrid.cpp</in>
+          <in>ctlStackWindow.cpp</in>
+          <in>ctlTabWindow.cpp</in>
+          <in>ctlVarWindow.cpp</in>
+          <in>dbgBreakPoint.cpp</in>
+          <in>dbgController.cpp</in>
+          <in>dbgEvents.cpp</in>
+          <in>dbgModel.cpp</in>
+          <in>dbgTargetInfo.cpp</in>
+          <in>debugger.cpp</in>
+          <in>dlgDirectDbg.cpp</in>
+          <in>frmDebugger.cpp</in>
+        </df>
+        <df name="dlg">
+          <df name=".deps">
+          </df>
+          <in>dlgAddFavourite.cpp</in>
+          <in>dlgAggregate.cpp</in>
+          <in>dlgCast.cpp</in>
+          <in>dlgCheck.cpp</in>
+          <in>dlgClasses.cpp</in>
+          <in>dlgCollation.cpp</in>
+          <in>dlgColumn.cpp</in>
+          <in>dlgConnect.cpp</in>
+          <in>dlgConversion.cpp</in>
+          <in>dlgDatabase.cpp</in>
+          <in>dlgDomain.cpp</in>
+          <in>dlgEditGridOptions.cpp</in>
+          <in>dlgEventTrigger.cpp</in>
+          <in>dlgExtTable.cpp</in>
+          <in>dlgExtension.cpp</in>
+          <in>dlgFindReplace.cpp</in>
+          <in>dlgForeignDataWrapper.cpp</in>
+          <in>dlgForeignKey.cpp</in>
+          <in>dlgForeignServer.cpp</in>
+          <in>dlgForeignTable.cpp</in>
+          <in>dlgFunction.cpp</in>
+          <in>dlgGroup.cpp</in>
+          <in>dlgHbaConfig.cpp</in>
+          <in>dlgIndex.cpp</in>
+          <in>dlgIndexConstraint.cpp</in>
+          <in>dlgLanguage.cpp</in>
+          <in>dlgMainConfig.cpp</in>
+          <in>dlgManageFavourites.cpp</in>
+          <in>dlgManageMacros.cpp</in>
+          <in>dlgMoveTablespace.cpp</in>
+          <in>dlgOperator.cpp</in>
+          <in>dlgPackage.cpp</in>
+          <in>dlgPgpassConfig.cpp</in>
+          <in>dlgProperty.cpp</in>
+          <in>dlgReassignDropOwned.cpp</in>
+          <in>dlgResourceGroup.cpp</in>
+          <in>dlgRole.cpp</in>
+          <in>dlgRule.cpp</in>
+          <in>dlgSchema.cpp</in>
+          <in>dlgSearchObject.cpp</in>
+          <in>dlgSelectConnection.cpp</in>
+          <in>dlgSelectDatabase.cpp</in>
+          <in>dlgSequence.cpp</in>
+          <in>dlgServer.cpp</in>
+          <in>dlgSynonym.cpp</in>
+          <in>dlgTable.cpp</in>
+          <in>dlgTablespace.cpp</in>
+          <in>dlgTextSearchConfiguration.cpp</in>
+          <in>dlgTextSearchDictionary.cpp</in>
+          <in>dlgTextSearchParser.cpp</in>
+          <in>dlgTextSearchTemplate.cpp</in>
+          <in>dlgTrigger.cpp</in>
+          <in>dlgType.cpp</in>
+          <in>dlgUser.cpp</in>
+          <in>dlgUserMapping.cpp</in>
+          <in>dlgView.cpp</in>
+        </df>
+        <df name="frm">
+          <df name=".deps">
+          </df>
+          <in>events.cpp</in>
+          <in>frmAbout.cpp</in>
+          <in>frmBackup.cpp</in>
+          <in>frmBackupGlobals.cpp</in>
+          <in>frmBackupServer.cpp</in>
+          <in>frmConfig.cpp</in>
+          <in>frmDatabaseDesigner.cpp</in>
+          <in>frmEditGrid.cpp</in>
+          <in>frmExport.cpp</in>
+          <in>frmGrantWizard.cpp</in>
+          <in>frmHbaConfig.cpp</in>
+          <in>frmHint.cpp</in>
+          <in>frmImport.cpp</in>
+          <in>frmMain.cpp</in>
+          <in>frmMainConfig.cpp</in>
+          <in>frmMaintenance.cpp</in>
+          <in>frmOptions.cpp</in>
+          <in>frmPassword.cpp</in>
+          <in>frmPgpassConfig.cpp</in>
+          <in>frmQuery.cpp</in>
+          <in>frmReport.cpp</in>
+          <in>frmRestore.cpp</in>
+          <in>frmSplash.cpp</in>
+          <in>frmStatus.cpp</in>
+          <in>plugins.cpp</in>
+        </df>
+        <df name="gqb">
+          <df name=".deps">
+          </df>
+          <in>gqbArrayCollection.cpp</in>
+          <in>gqbBrowser.cpp</in>
+          <in>gqbCollection.cpp</in>
+          <in>gqbColumn.cpp</in>
+          <in>gqbController.cpp</in>
+          <in>gqbDatabase.cpp</in>
+          <in>gqbGraphSimple.cpp</in>
+          <in>gqbGridJoinTable.cpp</in>
+          <in>gqbGridOrderTable.cpp</in>
+          <in>gqbGridProjTable.cpp</in>
+          <in>gqbGridRestTable.cpp</in>
+          <in>gqbModel.cpp</in>
+          <in>gqbObject.cpp</in>
+          <in>gqbObjectCollection.cpp</in>
+          <in>gqbQueryObjs.cpp</in>
+          <in>gqbSchema.cpp</in>
+          <in>gqbTable.cpp</in>
+          <in>gqbView.cpp</in>
+          <in>gqbViewPanels.cpp</in>
+        </df>
+        <df name="hotdraw">
+          <df name="connectors">
+            <df name=".deps">
+            </df>
+            <in>hdChopBoxConnector.cpp</in>
+            <in>hdIConnector.cpp</in>
+            <in>hdLocatorConnector.cpp</in>
+            <in>hdStickyRectangleConnector.cpp</in>
+          </df>
+          <df name="figures">
+            <df name=".deps">
+            </df>
+            <df name="defaultAttributes">
+              <df name=".deps">
+              </df>
+              <in>hdFillAttribute.cpp</in>
+              <in>hdFontAttribute.cpp</in>
+              <in>hdFontColorAttribute.cpp</in>
+              <in>hdLineAttribute.cpp</in>
+            </df>
+            <df name="xml">
+              <df name=".deps">
+              </df>
+              <in>hdStorage.cpp</in>
+            </df>
+            <in>hdAbstractFigure.cpp</in>
+            <in>hdAbstractMenuFigure.cpp</in>
+            <in>hdAttribute.cpp</in>
+            <in>hdAttributeFigure.cpp</in>
+            <in>hdBitmapFigure.cpp</in>
+            <in>hdCompositeFigure.cpp</in>
+            <in>hdIConnectionFigure.cpp</in>
+            <in>hdIFigure.cpp</in>
+            <in>hdLineConnection.cpp</in>
+            <in>hdLineTerminal.cpp</in>
+            <in>hdPolyLineFigure.cpp</in>
+            <in>hdRectangleFigure.cpp</in>
+            <in>hdSimpleTextFigure.cpp</in>
+          </df>
+          <df name="handles">
+            <df name=".deps">
+            </df>
+            <in>hdButtonHandle.cpp</in>
+            <in>hdChangeConnectionEndHandle.cpp</in>
+            <in>hdChangeConnectionHandle.cpp</in>
+            <in>hdChangeConnectionStartHandle.cpp</in>
+            <in>hdIHandle.cpp</in>
+            <in>hdLineConnectionHandle.cpp</in>
+            <in>hdLocatorHandle.cpp</in>
+            <in>hdPolyLineHandle.cpp</in>
+          </df>
+          <df name="locators">
+            <df name=".deps">
+            </df>
+            <in>hdILocator.cpp</in>
+            <in>hdPolyLineLocator.cpp</in>
+          </df>
+          <df name="main">
+            <df name=".deps">
+            </df>
+            <in>hdDrawing.cpp</in>
+            <in>hdDrawingEditor.cpp</in>
+            <in>hdDrawingView.cpp</in>
+          </df>
+          <df name="tools">
+            <df name=".deps">
+            </df>
+            <in>hdAbstractTool.cpp</in>
+            <in>hdCanvasMenuTool.cpp</in>
+            <in>hdCompositeFigureTool.cpp</in>
+            <in>hdConnectionCreationTool.cpp</in>
+            <in>hdCreationTool.cpp</in>
+            <in>hdDragCreationTool.cpp</in>
+            <in>hdDragTrackerTool.cpp</in>
+            <in>hdFigureTool.cpp</in>
+            <in>hdHandleTrackerTool.cpp</in>
+            <in>hdITool.cpp</in>
+            <in>hdMenuTool.cpp</in>
+            <in>hdPolyLineFigureTool.cpp</in>
+            <in>hdSelectAreaTool.cpp</in>
+            <in>hdSelectionTool.cpp</in>
+            <in>hdSimpleTextTool.cpp</in>
+          </df>
+          <df name="utilities">
+            <df name=".deps">
+            </df>
+            <in>hdArrayCollection.cpp</in>
+            <in>hdCollection.cpp</in>
+            <in>hdGeometry.cpp</in>
+            <in>hdKeyEvent.cpp</in>
+            <in>hdMouseEvent.cpp</in>
+            <in>hdMultiPosRect.cpp</in>
+            <in>hdPoint.cpp</in>
+            <in>hdRect.cpp</in>
+            <in>hdRemoveDeleteDialog.cpp</in>
+          </df>
+        </df>
+        <df name="include">
+          <df name="agent">
+            <in>dlgJob.h</in>
+            <in>dlgSchedule.h</in>
+            <in>dlgStep.h</in>
+            <in>pgaJob.h</in>
+            <in>pgaSchedule.h</in>
+            <in>pgaStep.h</in>
+          </df>
+          <df name="ctl">
+            <in>calbox.h</in>
+            <in>ctlAuiNotebook.h</in>
+            <in>ctlCheckTreeView.h</in>
+            <in>ctlColourPicker.h</in>
+            <in>ctlComboBox.h</in>
+            <in>ctlDefaultSecurityPanel.h</in>
+            <in>ctlListView.h</in>
+            <in>ctlMenuToolbar.h</in>
+            <in>ctlProgressStatusBar.h</in>
+            <in>ctlSQLBox.h</in>
+            <in>ctlSQLGrid.h</in>
+            <in>ctlSQLResult.h</in>
+            <in>ctlSeclabelPanel.h</in>
+            <in>ctlSecurityPanel.h</in>
+            <in>ctlTree.h</in>
+            <in>explainCanvas.h</in>
+            <in>timespin.h</in>
+            <in>wxgridsel.h</in>
+            <in>xh_calb.h</in>
+            <in>xh_ctlchecktreeview.h</in>
+            <in>xh_ctlcolourpicker.h</in>
+            <in>xh_ctlcombo.h</in>
+            <in>xh_ctltree.h</in>
+            <in>xh_sqlbox.h</in>
+            <in>xh_timespin.h</in>
+          </df>
+          <df name="db">
+            <in>pgConn.h</in>
+            <in>pgQueryResultEvent.h</in>
+            <in>pgQueryThread.h</in>
+            <in>pgSet.h</in>
+          </df>
+          <df name="dd">
+            <df name="dditems">
+              <df name="figures">
+                <df name="xml">
+                  <in>ddXmlStorage.h</in>
+                </df>
+                <in>ddColumnFigure.h</in>
+                <in>ddColumnKindIcon.h</in>
+                <in>ddColumnOptionIcon.h</in>
+                <in>ddRelationshipFigure.h</in>
+                <in>ddRelationshipItem.h</in>
+                <in>ddRelationshipTerminal.h</in>
+                <in>ddTableFigure.h</in>
+                <in>ddTextTableItemFigure.h</in>
+              </df>
+              <df name="handles">
+                <in>ddAddColButtonHandle.h</in>
+                <in>ddAddFkButtonHandle.h</in>
+                <in>ddMinMaxTableButtonHandle.h</in>
+                <in>ddRemoveTableButtonHandle.h</in>
+                <in>ddScrollBarHandle.h</in>
+                <in>ddSouthTableSizeHandle.h</in>
+              </df>
+              <df name="locators">
+                <in>ddAddColLocator.h</in>
+                <in>ddAddFkLocator.h</in>
+                <in>ddMinMaxTableLocator.h</in>
+                <in>ddRemoveTableLocator.h</in>
+                <in>ddScrollBarTableLocator.h</in>
+                <in>ddTableBottomLocator.h</in>
+              </df>
+              <df name="tools">
+                <in>ddColumnFigureTool.h</in>
+                <in>ddColumnTextTool.h</in>
+              </df>
+              <df name="utilities">
+                <in>ddDataType.h</in>
+                <in>ddPrecisionScaleDialog.h</in>
+                <in>ddSelectKindFksDialog.h</in>
+                <in>ddTableNameDialog.h</in>
+              </df>
+            </df>
+            <df name="ddmodel">
+              <in>ddBrowserDataContainer.h</in>
+              <in>ddDBReverseEngineering.h</in>
+              <in>ddDatabaseDesign.h</in>
+              <in>ddDrawingEditor.h</in>
+              <in>ddDrawingView.h</in>
+              <in>ddGenerationWizard.h</in>
+              <in>ddModelBrowser.h</in>
+            </df>
+          </df>
+          <df name="debugger">
+            <in>ctlMessageWindow.h</in>
+            <in>ctlResultGrid.h</in>
+            <in>ctlStackWindow.h</in>
+            <in>ctlTabWindow.h</in>
+            <in>ctlVarWindow.h</in>
+            <in>dbgBreakPoint.h</in>
+            <in>dbgConst.h</in>
+            <in>dbgController.h</in>
+            <in>dbgModel.h</in>
+            <in>dbgTargetInfo.h</in>
+            <in>debugger.h</in>
+            <in>dlgDirectDbg.h</in>
+            <in>frmDebugger.h</in>
+          </df>
+          <df name="dlg">
+            <in>dlgAddFavourite.h</in>
+            <in>dlgAggregate.h</in>
+            <in>dlgCast.h</in>
+            <in>dlgCheck.h</in>
+            <in>dlgClasses.h</in>
+            <in>dlgCollation.h</in>
+            <in>dlgColumn.h</in>
+            <in>dlgConnect.h</in>
+            <in>dlgConversion.h</in>
+            <in>dlgDatabase.h</in>
+            <in>dlgDomain.h</in>
+            <in>dlgEditGridOptions.h</in>
+            <in>dlgEventTrigger.h</in>
+            <in>dlgExtTable.h</in>
+            <in>dlgExtension.h</in>
+            <in>dlgFindReplace.h</in>
+            <in>dlgForeignDataWrapper.h</in>
+            <in>dlgForeignKey.h</in>
+            <in>dlgForeignServer.h</in>
+            <in>dlgForeignTable.h</in>
+            <in>dlgFunction.h</in>
+            <in>dlgGroup.h</in>
+            <in>dlgHbaConfig.h</in>
+            <in>dlgIndex.h</in>
+            <in>dlgIndexConstraint.h</in>
+            <in>dlgLanguage.h</in>
+            <in>dlgMainConfig.h</in>
+            <in>dlgManageFavourites.h</in>
+            <in>dlgManageMacros.h</in>
+            <in>dlgMoveTablespace.h</in>
+            <in>dlgOperator.h</in>
+            <in>dlgPackage.h</in>
+            <in>dlgPgpassConfig.h</in>
+            <in>dlgProperty.h</in>
+            <in>dlgReassignDropOwned.h</in>
+            <in>dlgResourceGroup.h</in>
+            <in>dlgRole.h</in>
+            <in>dlgRule.h</in>
+            <in>dlgSchema.h</in>
+            <in>dlgSearchObject.h</in>
+            <in>dlgSelectConnection.h</in>
+            <in>dlgSelectDatabase.h</in>
+            <in>dlgSequence.h</in>
+            <in>dlgServer.h</in>
+            <in>dlgSynonym.h</in>
+            <in>dlgTable.h</in>
+            <in>dlgTablespace.h</in>
+            <in>dlgTextSearchConfiguration.h</in>
+            <in>dlgTextSearchDictionary.h</in>
+            <in>dlgTextSearchParser.h</in>
+            <in>dlgTextSearchTemplate.h</in>
+            <in>dlgTrigger.h</in>
+            <in>dlgType.h</in>
+            <in>dlgUser.h</in>
+            <in>dlgUserMapping.h</in>
+            <in>dlgView.h</in>
+          </df>
+          <df name="frm">
+            <in>frmAbout.h</in>
+            <in>frmBackup.h</in>
+            <in>frmBackupGlobals.h</in>
+            <in>frmBackupServer.h</in>
+            <in>frmConfig.h</in>
+            <in>frmDatabaseDesigner.h</in>
+            <in>frmEditGrid.h</in>
+            <in>frmExport.h</in>
+            <in>frmGrantWizard.h</in>
+            <in>frmHbaConfig.h</in>
+            <in>frmHint.h</in>
+            <in>frmImport.h</in>
+            <in>frmMain.h</in>
+            <in>frmMainConfig.h</in>
+            <in>frmMaintenance.h</in>
+            <in>frmOptions.h</in>
+            <in>frmPassword.h</in>
+            <in>frmPgpassConfig.h</in>
+            <in>frmQuery.h</in>
+            <in>frmReport.h</in>
+            <in>frmRestore.h</in>
+            <in>frmSplash.h</in>
+            <in>frmStatus.h</in>
+            <in>menu.h</in>
+          </df>
+          <df name="gqb">
+            <in>gqbArrayCollection.h</in>
+            <in>gqbBrowser.h</in>
+            <in>gqbCollection.h</in>
+            <in>gqbCollectionBase.h</in>
+            <in>gqbColumn.h</in>
+            <in>gqbDatabase.h</in>
+            <in>gqbEvents.h</in>
+            <in>gqbGraphBehavior.h</in>
+            <in>gqbGraphSimple.h</in>
+            <in>gqbGridJoinTable.h</in>
+            <in>gqbGridOrderTable.h</in>
+            <in>gqbGridProjTable.h</in>
+            <in>gqbGridRestTable.h</in>
+            <in>gqbModel.h</in>
+            <in>gqbObject.h</in>
+            <in>gqbObjectCollection.h</in>
+            <in>gqbQueryObjs.h</in>
+            <in>gqbSchema.h</in>
+            <in>gqbTable.h</in>
+            <in>gqbViewController.h</in>
+            <in>gqbViewPanels.h</in>
+          </df>
+          <df name="hotdraw">
+            <df name="connectors">
+              <in>hdChopBoxConnector.h</in>
+              <in>hdIConnector.h</in>
+              <in>hdLocatorConnector.h</in>
+              <in>hdStickyRectangleConnector.h</in>
+            </df>
+            <df name="figures">
+              <df name="defaultAttributes">
+                <in>hdFillAttribute.h</in>
+                <in>hdFontAttribute.h</in>
+                <in>hdFontColorAttribute.h</in>
+                <in>hdLineAttribute.h</in>
+              </df>
+              <df name="xml">
+                <in>hdStorage.h</in>
+              </df>
+              <in>hdAbstractFigure.h</in>
+              <in>hdAbstractMenuFigure.h</in>
+              <in>hdAttribute.h</in>
+              <in>hdAttributeFigure.h</in>
+              <in>hdBitmapFigure.h</in>
+              <in>hdCompositeFigure.h</in>
+              <in>hdIConnectionFigure.h</in>
+              <in>hdIFigure.h</in>
+              <in>hdLineConnection.h</in>
+              <in>hdLineTerminal.h</in>
+              <in>hdPolyLineFigure.h</in>
+              <in>hdRectangleFigure.h</in>
+              <in>hdSimpleTextFigure.h</in>
+            </df>
+            <df name="handles">
+              <in>hdButtonHandle.h</in>
+              <in>hdChangeConnectionEndHandle.h</in>
+              <in>hdChangeConnectionHandle.h</in>
+              <in>hdChangeConnectionStartHandle.h</in>
+              <in>hdIHandle.h</in>
+              <in>hdLineConnectionHandle.h</in>
+              <in>hdLocatorHandle.h</in>
+              <in>hdPolyLineHandle.h</in>
+            </df>
+            <df name="locators">
+              <in>hdILocator.h</in>
+              <in>hdPolyLineLocator.h</in>
+            </df>
+            <df name="main">
+              <in>hdDrawing.h</in>
+              <in>hdDrawingEditor.h</in>
+              <in>hdDrawingView.h</in>
+              <in>hdObject.h</in>
+            </df>
+            <df name="tools">
+              <in>hdAbstractTool.h</in>
+              <in>hdCanvasMenuTool.h</in>
+              <in>hdCompositeFigureTool.h</in>
+              <in>hdConnectionCreationTool.h</in>
+              <in>hdCreationTool.h</in>
+              <in>hdDragCreationTool.h</in>
+              <in>hdDragTrackerTool.h</in>
+              <in>hdFigureTool.h</in>
+              <in>hdHandleTrackerTool.h</in>
+              <in>hdITool.h</in>
+              <in>hdMenuTool.h</in>
+              <in>hdPolyLineFigureTool.h</in>
+              <in>hdSelectAreaTool.h</in>
+              <in>hdSelectionTool.h</in>
+              <in>hdSimpleTextTool.h</in>
+            </df>
+            <df name="utilities">
+              <in>hdArrayCollection.h</in>
+              <in>hdCollection.h</in>
+              <in>hdCollectionBase.h</in>
+              <in>hdGeometry.h</in>
+              <in>hdKeyEvent.h</in>
+              <in>hdMouseEvent.h</in>
+              <in>hdMultiPosRect.h</in>
+              <in>hdPoint.h</in>
+              <in>hdRect.h</in>
+              <in>hdRemoveDeleteDialog.h</in>
+            </df>
+          </df>
+          <df name="images">
+            <in>aggregate-sm.pngc</in>
+            <in>aggregate.pngc</in>
+            <in>aggregates.pngc</in>
+            <in>back.pngc</in>
+            <in>backup.pngc</in>
+            <in>baddatabase.pngc</in>
+            <in>cast-sm.pngc</in>
+            <in>cast.pngc</in>
+            <in>casts.pngc</in>
+            <in>catalog-sm.pngc</in>
+            <in>catalog.pngc</in>
+            <in>catalogobject-sm.pngc</in>
+            <in>catalogobject.pngc</in>
+            <in>catalogobjects.pngc</in>
+            <in>catalogs.pngc</in>
+            <in>check.pngc</in>
+            <in>checkbad.pngc</in>
+            <in>checked.pngc</in>
+            <in>clearAll.pngc</in>
+            <in>clip_copy.pngc</in>
+            <in>clip_cut.pngc</in>
+            <in>clip_paste.pngc</in>
+            <in>closeddatabase-sm.pngc</in>
+            <in>closeddatabase.pngc</in>
+            <in>collation-sm.pngc</in>
+            <in>collation.pngc</in>
+            <in>collations.pngc</in>
+            <in>column-sm.pngc</in>
+            <in>column.pngc</in>
+            <in>columns.pngc</in>
+            <in>configuration.pngc</in>
+            <in>configurations.pngc</in>
+            <in>connect.pngc</in>
+            <in>constraints.pngc</in>
+            <in>continue.pngc</in>
+            <in>conversion.pngc</in>
+            <in>conversions.pngc</in>
+            <in>create.pngc</in>
+            <in>database-sm.pngc</in>
+            <in>database.pngc</in>
+            <in>databases.pngc</in>
+            <in>ddAddColumn.pngc</in>
+            <in>ddAddColumnCursor.pngc</in>
+            <in>ddAddForeignKey.pngc</in>
+            <in>ddDeleteTableCursor.pngc</in>
+            <in>ddDown.pngc</in>
+            <in>ddMaximizeTable.pngc</in>
+            <in>ddMinMaxCursor.pngc</in>
+            <in>ddMinimizeTable.pngc</in>
+            <in>ddRelationshipCursor.pngc</in>
+            <in>ddRemoveColumn.pngc</in>
+            <in>ddRemoveColumnCursor.pngc</in>
+            <in>ddRemoveTable.pngc</in>
+            <in>ddRemoveTable2.pngc</in>
+            <in>ddUp.pngc</in>
+            <in>ddcancel.pngc</in>
+            <in>ddforeignkey.pngc</in>
+            <in>ddforeignkeyfromuk.pngc</in>
+            <in>ddforeignkeyuniquekey.pngc</in>
+            <in>ddforeignkeyuniquekeyfromuk.pngc</in>
+            <in>ddgendiagram.pngc</in>
+            <in>ddmodel-32.pngc</in>
+            <in>ddnewdiagram.pngc</in>
+            <in>ddnotnull.pngc</in>
+            <in>ddnull.pngc</in>
+            <in>ddprimaryforeignkey.pngc</in>
+            <in>ddprimaryforeignkeyfromuk.pngc</in>
+            <in>ddprimarykey.pngc</in>
+            <in>ddprimarykeyuniquekey.pngc</in>
+            <in>ddunique.pngc</in>
+            <in>debugger.pngc</in>
+            <in>delete.pngc</in>
+            <in>dictionaries.pngc</in>
+            <in>dictionary.pngc</in>
+            <in>disabled.pngc</in>
+            <in>dnd_copy.pngc</in>
+            <in>dnd_move.pngc</in>
+            <in>dnd_none.pngc</in>
+            <in>domain-sm.pngc</in>
+            <in>domain.pngc</in>
+            <in>domains.pngc</in>
+            <in>down.pngc</in>
+            <in>drop.pngc</in>
+            <in>edit_clear.pngc</in>
+            <in>edit_find.pngc</in>
+            <in>edit_redo.pngc</in>
+            <in>edit_undo.pngc</in>
+            <in>enumeration.pngc</in>
+            <in>enumerations.pngc</in>
+            <in>ex_aggregate.pngc</in>
+            <in>ex_append.pngc</in>
+            <in>ex_bmp_and.pngc</in>
+            <in>ex_bmp_heap.pngc</in>
+            <in>ex_bmp_index.pngc</in>
+            <in>ex_bmp_or.pngc</in>
+            <in>ex_broadcast_motion.pngc</in>
+            <in>ex_cte_scan.pngc</in>
+            <in>ex_delete.pngc</in>
+            <in>ex_foreign_scan.pngc</in>
+            <in>ex_gather_motion.pngc</in>
+            <in>ex_group.pngc</in>
+            <in>ex_hash.pngc</in>
+            <in>ex_hash_anti_join.pngc</in>
+            <in>ex_hash_semi_join.pngc</in>
+            <in>ex_hash_setop_except.pngc</in>
+            <in>ex_hash_setop_except_all.pngc</in>
+            <in>ex_hash_setop_intersect.pngc</in>
+            <in>ex_hash_setop_intersect_all.pngc</in>
+            <in>ex_hash_setop_unknown.pngc</in>
+            <in>ex_index_only_scan.pngc</in>
+            <in>ex_index_scan.pngc</in>
+            <in>ex_insert.pngc</in>
+            <in>ex_join.pngc</in>
+            <in>ex_limit.pngc</in>
+            <in>ex_lock_rows.pngc</in>
+            <in>ex_materialize.pngc</in>
+            <in>ex_merge.pngc</in>
+            <in>ex_merge_anti_join.pngc</in>
+            <in>ex_merge_append.pngc</in>
+            <in>ex_merge_semi_join.pngc</in>
+            <in>ex_nested.pngc</in>
+            <in>ex_nested_loop_anti_join.pngc</in>
+            <in>ex_nested_loop_semi_join.pngc</in>
+            <in>ex_recursive_union.pngc</in>
+            <in>ex_redistribute_motion.pngc</in>
+            <in>ex_result.pngc</in>
+            <in>ex_scan.pngc</in>
+            <in>ex_seek.pngc</in>
+            <in>ex_setop.pngc</in>
+            <in>ex_sort.pngc</in>
+            <in>ex_subplan.pngc</in>
+            <in>ex_tid_scan.pngc</in>
+            <in>ex_unique.pngc</in>
+            <in>ex_unknown.pngc</in>
+            <in>ex_update.pngc</in>
+            <in>ex_values_scan.pngc</in>
+            <in>ex_window_aggregate.pngc</in>
+            <in>ex_worktable_scan.pngc</in>
+            <in>exclude.pngc</in>
+            <in>extension-sm.pngc</in>
+            <in>extension.pngc</in>
+            <in>extensions.pngc</in>
+            <in>exttable-sm.pngc</in>
+            <in>exttable.pngc</in>
+            <in>exttables.pngc</in>
+            <in>favourite.pngc</in>
+            <in>file_new.pngc</in>
+            <in>file_open.pngc</in>
+            <in>file_save.pngc</in>
+            <in>folder.pngc</in>
+            <in>foreigndatawrapper-sm.pngc</in>
+            <in>foreigndatawrapper.pngc</in>
+            <in>foreigndatawrappers.pngc</in>
+            <in>foreignkey.pngc</in>
+            <in>foreignkeybad.pngc</in>
+            <in>foreignserver-sm.pngc</in>
+            <in>foreignserver.pngc</in>
+            <in>foreignservers.pngc</in>
+            <in>foreigntable.pngc</in>
+            <in>foreigntables.pngc</in>
+            <in>forward.pngc</in>
+            <in>function.pngc</in>
+            <in>functions.pngc</in>
+            <in>gqbAdd.pngc</in>
+            <in>gqbAddRest.pngc</in>
+            <in>gqbColNotSel.pngc</in>
+            <in>gqbColSel.pngc</in>
+            <in>gqbDown.pngc</in>
+            <in>gqbDownBottom.pngc</in>
+            <in>gqbJoin.pngc</in>
+            <in>gqbJoinCursor.pngc</in>
+            <in>gqbOrderAdd.pngc</in>
+            <in>gqbOrderAddAll.pngc</in>
+            <in>gqbOrderRemove.pngc</in>
+            <in>gqbOrderRemoveAll.pngc</in>
+            <in>gqbRemove.pngc</in>
+            <in>gqbRemoveRest.pngc</in>
+            <in>gqbUp.pngc</in>
+            <in>gqbUpTop.pngc</in>
+            <in>group.pngc</in>
+            <in>groups.pngc</in>
+            <in>help.pngc</in>
+            <in>help2.pngc</in>
+            <in>hint.pngc</in>
+            <in>hint2.pngc</in>
+            <in>index.pngc</in>
+            <in>indexes.pngc</in>
+            <in>job.pngc</in>
+            <in>jobdisabled.pngc</in>
+            <in>jobs.pngc</in>
+            <in>key.pngc</in>
+            <in>language-sm.pngc</in>
+            <in>language.pngc</in>
+            <in>languages.pngc</in>
+            <in>loginroles.pngc</in>
+            <in>mview-sm.pngc</in>
+            <in>mview.pngc</in>
+            <in>namespace-sm.pngc</in>
+            <in>namespace.pngc</in>
+            <in>namespaces.pngc</in>
+            <in>operator.pngc</in>
+            <in>operatorclass.pngc</in>
+            <in>operatorclasses.pngc</in>
+            <in>operatorfamilies.pngc</in>
+            <in>operatorfamily.pngc</in>
+            <in>operators.pngc</in>
+            <in>package.pngc</in>
+            <in>packages.pngc</in>
+            <in>parser.pngc</in>
+            <in>parsers.pngc</in>
+            <in>pgAdmin3-128.pngc</in>
+            <in>pgAdmin3-16.pngc</in>
+            <in>pgAdmin3-22.pngc</in>
+            <in>pgAdmin3-24.pngc</in>
+            <in>pgAdmin3-256.pngc</in>
+            <in>pgAdmin3-32.pngc</in>
+            <in>pgAdmin3-36.pngc</in>
+            <in>pgAdmin3-48.pngc</in>
+            <in>pgAdmin3-96.pngc</in>
+            <in>pgAdmin3.pngc</in>
+            <in>plugins.pngc</in>
+            <in>primarykey.pngc</in>
+            <in>procedure.pngc</in>
+            <in>procedures.pngc</in>
+            <in>properties.pngc</in>
+            <in>property.pngc</in>
+            <in>query_cancel.pngc</in>
+            <in>query_commit.pngc</in>
+            <in>query_execfile.pngc</in>
+            <in>query_execute.pngc</in>
+            <in>query_explain.pngc</in>
+            <in>query_pgscript.pngc</in>
+            <in>query_rollback.pngc</in>
+            <in>readdata.pngc</in>
+            <in>refresh.pngc</in>
+            <in>reload.pngc</in>
+            <in>resourcegroup.pngc</in>
+            <in>resourcegroups.pngc</in>
+            <in>restore.pngc</in>
+            <in>roles.pngc</in>
+            <in>rule.pngc</in>
+            <in>rulebad.pngc</in>
+            <in>rules.pngc</in>
+            <in>schedule.pngc</in>
+            <in>schedules.pngc</in>
+            <in>sequence-repl.pngc</in>
+            <in>sequence.pngc</in>
+            <in>sequences.pngc</in>
+            <in>server-sm.pngc</in>
+            <in>server.pngc</in>
+            <in>serverbad-sm.pngc</in>
+            <in>serverbad.pngc</in>
+            <in>servers.pngc</in>
+            <in>setBreak.pngc</in>
+            <in>slcluster.pngc</in>
+            <in>slclusters.pngc</in>
+            <in>sllisten.pngc</in>
+            <in>sllistens.pngc</in>
+            <in>slnode-disabled.pngc</in>
+            <in>slnode-local.pngc</in>
+            <in>slnode.pngc</in>
+            <in>slnodes.pngc</in>
+            <in>slpath.pngc</in>
+            <in>slpaths.pngc</in>
+            <in>slset.pngc</in>
+            <in>slset2.pngc</in>
+            <in>slsets.pngc</in>
+            <in>slsubscription.pngc</in>
+            <in>slsubscription2.pngc</in>
+            <in>slsubscriptions.pngc</in>
+            <in>sortfilter.pngc</in>
+            <in>splash.pngc</in>
+            <in>sql-16.pngc</in>
+            <in>sql-32.pngc</in>
+            <in>sql.pngc</in>
+            <in>statistics.pngc</in>
+            <in>step.pngc</in>
+            <in>stepInto.pngc</in>
+            <in>stepOver.pngc</in>
+            <in>steps.pngc</in>
+            <in>stop.pngc</in>
+            <in>storedata.pngc</in>
+            <in>synonym.pngc</in>
+            <in>synonyms.pngc</in>
+            <in>table-repl-sm.pngc</in>
+            <in>table-repl.pngc</in>
+            <in>table-sm.pngc</in>
+            <in>table.pngc</in>
+            <in>tables.pngc</in>
+            <in>tablespace.pngc</in>
+            <in>tablespaces.pngc</in>
+            <in>template.pngc</in>
+            <in>templates.pngc</in>
+            <in>terminate_backend.pngc</in>
+            <in>textsearch.pngc</in>
+            <in>trigger.pngc</in>
+            <in>triggerbad.pngc</in>
+            <in>triggerfunction.pngc</in>
+            <in>triggerfunctions.pngc</in>
+            <in>triggers.pngc</in>
+            <in>type.pngc</in>
+            <in>types.pngc</in>
+            <in>uncheck.pngc</in>
+            <in>unchecked.pngc</in>
+            <in>unique.pngc</in>
+            <in>up.pngc</in>
+            <in>user.pngc</in>
+            <in>usermapping-sm.pngc</in>
+            <in>usermapping.pngc</in>
+            <in>usermappings.pngc</in>
+            <in>users.pngc</in>
+            <in>vacuum.pngc</in>
+            <in>variable.pngc</in>
+            <in>variables.pngc</in>
+            <in>view-sm.pngc</in>
+            <in>view.pngc</in>
+            <in>viewdata.pngc</in>
+            <in>viewfiltereddata.pngc</in>
+            <in>views.pngc</in>
+          </df>
+          <df name="ogl">
+            <in>basic.h</in>
+            <in>basicp.h</in>
+            <in>bmpshape.h</in>
+            <in>canvas.h</in>
+            <in>composit.h</in>
+            <in>constrnt.h</in>
+            <in>divided.h</in>
+            <in>drawn.h</in>
+            <in>drawnp.h</in>
+            <in>lines.h</in>
+            <in>linesp.h</in>
+            <in>mfutils.h</in>
+            <in>misc.h</in>
+            <in>ogl.h</in>
+            <in>ogldiag.h</in>
+          </df>
+          <df name="parser">
+            <in>keywords.h</in>
+            <in>kwlist.h</in>
+          </df>
+          <df name="pgscript">
+            <df name="exceptions">
+              <in>pgsArithmeticException.h</in>
+              <in>pgsAssertException.h</in>
+              <in>pgsBreakException.h</in>
+              <in>pgsCastException.h</in>
+              <in>pgsContinueException.h</in>
+              <in>pgsException.h</in>
+              <in>pgsInterruptException.h</in>
+              <in>pgsParameterException.h</in>
+            </df>
+            <df name="expressions">
+              <in>pgsAnd.h</in>
+              <in>pgsAssign.h</in>
+              <in>pgsAssignToRecord.h</in>
+              <in>pgsCast.h</in>
+              <in>pgsColumns.h</in>
+              <in>pgsDifferent.h</in>
+              <in>pgsEqual.h</in>
+              <in>pgsExecute.h</in>
+              <in>pgsExpression.h</in>
+              <in>pgsExpressions.h</in>
+              <in>pgsGenDate.h</in>
+              <in>pgsGenDateTime.h</in>
+              <in>pgsGenDictionary.h</in>
+              <in>pgsGenInt.h</in>
+              <in>pgsGenReal.h</in>
+              <in>pgsGenReference.h</in>
+              <in>pgsGenRegex.h</in>
+              <in>pgsGenString.h</in>
+              <in>pgsGenTime.h</in>
+              <in>pgsGreater.h</in>
+              <in>pgsGreaterEqual.h</in>
+              <in>pgsIdent.h</in>
+              <in>pgsIdentRecord.h</in>
+              <in>pgsLines.h</in>
+              <in>pgsLower.h</in>
+              <in>pgsLowerEqual.h</in>
+              <in>pgsMinus.h</in>
+              <in>pgsModulo.h</in>
+              <in>pgsNegate.h</in>
+              <in>pgsNot.h</in>
+              <in>pgsOperation.h</in>
+              <in>pgsOr.h</in>
+              <in>pgsOver.h</in>
+              <in>pgsParenthesis.h</in>
+              <in>pgsPlus.h</in>
+              <in>pgsRemoveLine.h</in>
+              <in>pgsTimes.h</in>
+              <in>pgsTrim.h</in>
+            </df>
+            <df name="generators">
+              <in>pgsDateGen.h</in>
+              <in>pgsDateTimeGen.h</in>
+              <in>pgsDictionaryGen.h</in>
+              <in>pgsIntegerGen.h</in>
+              <in>pgsNumberGen.h</in>
+              <in>pgsObjectGen.h</in>
+              <in>pgsRealGen.h</in>
+              <in>pgsReferenceGen.h</in>
+              <in>pgsRegexGen.h</in>
+              <in>pgsStringGen.h</in>
+              <in>pgsTimeGen.h</in>
+            </df>
+            <df name="objects">
+              <in>pgsGenerator.h</in>
+              <in>pgsNumber.h</in>
+              <in>pgsObjects.h</in>
+              <in>pgsRecord.h</in>
+              <in>pgsString.h</in>
+              <in>pgsVariable.h</in>
+            </df>
+            <df name="statements">
+              <in>pgsAssertStmt.h</in>
+              <in>pgsBreakStmt.h</in>
+              <in>pgsContinueStmt.h</in>
+              <in>pgsDeclareRecordStmt.h</in>
+              <in>pgsExpressionStmt.h</in>
+              <in>pgsIfStmt.h</in>
+              <in>pgsPrintStmt.h</in>
+              <in>pgsProgram.h</in>
+              <in>pgsStatements.h</in>
+              <in>pgsStmt.h</in>
+              <in>pgsStmtList.h</in>
+              <in>pgsWhileStmt.h</in>
+            </df>
+            <df name="utilities">
+              <df name="mapm-lib">
+                <in>m_apm.h</in>
+                <in>m_apm_lc.h</in>
+              </df>
+              <in>pgsAlloc.h</in>
+              <in>pgsContext.h</in>
+              <in>pgsCopiedPtr.h</in>
+              <in>pgsDriver.h</in>
+              <in>pgsMapm.h</in>
+              <in>pgsScanner.h</in>
+              <in>pgsSharedPtr.h</in>
+              <in>pgsThread.h</in>
+              <in>pgsUtilities.h</in>
+            </df>
+            <in>FlexLexer.h</in>
+<<<<<<< Updated upstream
+            <in>pgScript.h</in>
+            <in>pgsApplication.h</in>
+=======
+            <in>location.hh</in>
+            <in>parser.tab.hh</in>
+            <in>pgScript.h</in>
+            <in>pgsApplication.h</in>
+            <in>position.hh</in>
+            <in>stack.hh</in>
+>>>>>>> Stashed changes
+          </df>
+          <df name="schema">
+            <in>edbPackage.h</in>
+            <in>edbPackageFunction.h</in>
+            <in>edbPackageVariable.h</in>
+            <in>edbPrivateSynonym.h</in>
+            <in>edbResourceGroup.h</in>
+            <in>edbSynonym.h</in>
+            <in>gpExtTable.h</in>
+            <in>gpPartition.h</in>
+            <in>gpResQueue.h</in>
+            <in>pgAggregate.h</in>
+            <in>pgCast.h</in>
+            <in>pgCatalogObject.h</in>
+            <in>pgCheck.h</in>
+            <in>pgCollation.h</in>
+            <in>pgCollection.h</in>
+            <in>pgColumn.h</in>
+            <in>pgConstraints.h</in>
+            <in>pgConversion.h</in>
+            <in>pgDatabase.h</in>
+            <in>pgDatatype.h</in>
+            <in>pgDomain.h</in>
+            <in>pgEventTrigger.h</in>
+            <in>pgExtension.h</in>
+            <in>pgForeignDataWrapper.h</in>
+            <in>pgForeignKey.h</in>
+            <in>pgForeignServer.h</in>
+            <in>pgForeignTable.h</in>
+            <in>pgFunction.h</in>
+            <in>pgGroup.h</in>
+            <in>pgIndex.h</in>
+            <in>pgIndexConstraint.h</in>
+            <in>pgLanguage.h</in>
+            <in>pgObject.h</in>
+            <in>pgOperator.h</in>
+            <in>pgOperatorClass.h</in>
+            <in>pgOperatorFamily.h</in>
+            <in>pgRole.h</in>
+            <in>pgRule.h</in>
+            <in>pgSchema.h</in>
+            <in>pgSequence.h</in>
+            <in>pgServer.h</in>
+            <in>pgTable.h</in>
+            <in>pgTablespace.h</in>
+            <in>pgTextSearchConfiguration.h</in>
+            <in>pgTextSearchDictionary.h</in>
+            <in>pgTextSearchParser.h</in>
+            <in>pgTextSearchTemplate.h</in>
+            <in>pgTrigger.h</in>
+            <in>pgType.h</in>
+            <in>pgUser.h</in>
+            <in>pgUserMapping.h</in>
+            <in>pgView.h</in>
+          </df>
+          <df name="slony">
+            <in>dlgRepCluster.h</in>
+            <in>dlgRepListen.h</in>
+            <in>dlgRepNode.h</in>
+            <in>dlgRepPath.h</in>
+            <in>dlgRepProperty.h</in>
+            <in>dlgRepSequence.h</in>
+            <in>dlgRepSet.h</in>
+            <in>dlgRepSubscription.h</in>
+            <in>dlgRepTable.h</in>
+            <in>slCluster.h</in>
+            <in>slListen.h</in>
+            <in>slNode.h</in>
+            <in>slPath.h</in>
+            <in>slSequence.h</in>
+            <in>slSet.h</in>
+            <in>slSubscription.h</in>
+            <in>slTable.h</in>
+          </df>
+          <df name="utils">
+            <in>csvfiles.h</in>
+            <in>factory.h</in>
+            <in>favourites.h</in>
+            <in>macros.h</in>
+            <in>misc.h</in>
+            <in>pgDefs.h</in>
+            <in>pgconfig.h</in>
+            <in>pgfeatures.h</in>
+            <in>registry.h</in>
+            <in>sshTunnel.h</in>
+            <in>sysLogger.h</in>
+            <in>sysProcess.h</in>
+            <in>sysSettings.h</in>
+            <in>utffile.h</in>
+          </df>
+          <in>copyright.h</in>
+          <in>pgAdmin3.h</in>
+          <in>postgres.h</in>
+          <in>precomp.h</in>
+          <in>svnversion.h</in>
+          <in>version.h</in>
+        </df>
+        <df name="ogl">
+          <df name=".deps">
+          </df>
+          <in>basic.cpp</in>
+          <in>basic2.cpp</in>
+          <in>bmpshape.cpp</in>
+          <in>canvas.cpp</in>
+          <in>composit.cpp</in>
+          <in>constrnt.cpp</in>
+          <in>divided.cpp</in>
+          <in>drawn.cpp</in>
+          <in>lines.cpp</in>
+          <in>mfutils.cpp</in>
+          <in>ogldiag.cpp</in>
+          <in>oglmisc.cpp</in>
+        </df>
+        <df name="pgscript">
+          <df name=".deps">
+          </df>
+          <df name="exceptions">
+            <df name=".deps">
+            </df>
+            <in>pgsArithmeticException.cpp</in>
+            <in>pgsAssertException.cpp</in>
+            <in>pgsBreakException.cpp</in>
+            <in>pgsCastException.cpp</in>
+            <in>pgsContinueException.cpp</in>
+            <in>pgsException.cpp</in>
+            <in>pgsInterruptException.cpp</in>
+            <in>pgsParameterException.cpp</in>
+          </df>
+          <df name="expressions">
+            <df name=".deps">
+            </df>
+            <in>pgsAnd.cpp</in>
+            <in>pgsAssign.cpp</in>
+            <in>pgsAssignToRecord.cpp</in>
+            <in>pgsCast.cpp</in>
+            <in>pgsColumns.cpp</in>
+            <in>pgsDifferent.cpp</in>
+            <in>pgsEqual.cpp</in>
+            <in>pgsExecute.cpp</in>
+            <in>pgsExpression.cpp</in>
+            <in>pgsGenDate.cpp</in>
+            <in>pgsGenDateTime.cpp</in>
+            <in>pgsGenDictionary.cpp</in>
+            <in>pgsGenInt.cpp</in>
+            <in>pgsGenReal.cpp</in>
+            <in>pgsGenReference.cpp</in>
+            <in>pgsGenRegex.cpp</in>
+            <in>pgsGenString.cpp</in>
+            <in>pgsGenTime.cpp</in>
+            <in>pgsGreater.cpp</in>
+            <in>pgsGreaterEqual.cpp</in>
+            <in>pgsIdent.cpp</in>
+            <in>pgsIdentRecord.cpp</in>
+            <in>pgsLines.cpp</in>
+            <in>pgsLower.cpp</in>
+            <in>pgsLowerEqual.cpp</in>
+            <in>pgsMinus.cpp</in>
+            <in>pgsModulo.cpp</in>
+            <in>pgsNegate.cpp</in>
+            <in>pgsNot.cpp</in>
+            <in>pgsOperation.cpp</in>
+            <in>pgsOr.cpp</in>
+            <in>pgsOver.cpp</in>
+            <in>pgsParenthesis.cpp</in>
+            <in>pgsPlus.cpp</in>
+            <in>pgsRemoveLine.cpp</in>
+            <in>pgsTimes.cpp</in>
+            <in>pgsTrim.cpp</in>
+          </df>
+          <df name="generators">
+            <df name=".deps">
+            </df>
+            <in>pgsDateGen.cpp</in>
+            <in>pgsDateTimeGen.cpp</in>
+            <in>pgsDictionaryGen.cpp</in>
+            <in>pgsIntegerGen.cpp</in>
+            <in>pgsNumberGen.cpp</in>
+            <in>pgsObjectGen.cpp</in>
+            <in>pgsRealGen.cpp</in>
+            <in>pgsReferenceGen.cpp</in>
+            <in>pgsRegexGen.cpp</in>
+            <in>pgsStringGen.cpp</in>
+            <in>pgsTimeGen.cpp</in>
+          </df>
+          <df name="objects">
+            <df name=".deps">
+            </df>
+            <in>pgsGenerator.cpp</in>
+            <in>pgsNumber.cpp</in>
+            <in>pgsRecord.cpp</in>
+            <in>pgsString.cpp</in>
+            <in>pgsVariable.cpp</in>
+          </df>
+          <df name="statements">
+            <df name=".deps">
+            </df>
+            <in>pgsAssertStmt.cpp</in>
+            <in>pgsBreakStmt.cpp</in>
+            <in>pgsContinueStmt.cpp</in>
+            <in>pgsDeclareRecordStmt.cpp</in>
+            <in>pgsExpressionStmt.cpp</in>
+            <in>pgsIfStmt.cpp</in>
+            <in>pgsPrintStmt.cpp</in>
+            <in>pgsProgram.cpp</in>
+            <in>pgsStmt.cpp</in>
+            <in>pgsStmtList.cpp</in>
+            <in>pgsWhileStmt.cpp</in>
+          </df>
+          <df name="utilities">
+            <df name=".deps">
+            </df>
+            <df name="m_apm">
+              <df name=".deps">
+              </df>
+              <in>mapm5sin.cpp</in>
+              <in>mapm_add.cpp</in>
+              <in>mapm_cpi.cpp</in>
+              <in>mapm_div.cpp</in>
+              <in>mapm_exp.cpp</in>
+              <in>mapm_fam.cpp</in>
+              <in>mapm_fft.cpp</in>
+              <in>mapm_flr.cpp</in>
+              <in>mapm_fpf.cpp</in>
+              <in>mapm_gcd.cpp</in>
+              <in>mapm_lg2.cpp</in>
+              <in>mapm_lg3.cpp</in>
+              <in>mapm_lg4.cpp</in>
+              <in>mapm_log.cpp</in>
+              <in>mapm_mul.cpp</in>
+              <in>mapm_pow.cpp</in>
+              <in>mapm_rcp.cpp</in>
+              <in>mapm_rnd.cpp</in>
+              <in>mapm_set.cpp</in>
+              <in>mapm_sin.cpp</in>
+              <in>mapmasin.cpp</in>
+              <in>mapmasn0.cpp</in>
+              <in>mapmcbrt.cpp</in>
+              <in>mapmcnst.cpp</in>
+              <in>mapmfact.cpp</in>
+              <in>mapmfmul.cpp</in>
+              <in>mapmgues.cpp</in>
+              <in>mapmhasn.cpp</in>
+              <in>mapmhsin.cpp</in>
+              <in>mapmipwr.cpp</in>
+              <in>mapmistr.cpp</in>
+              <in>mapmpwr2.cpp</in>
+              <in>mapmrsin.cpp</in>
+              <in>mapmsqrt.cpp</in>
+              <in>mapmstck.cpp</in>
+              <in>mapmutil.cpp</in>
+              <in>mapmutl1.cpp</in>
+              <in>mapmutl2.cpp</in>
+            </df>
+            <in>pgsAlloc.cpp</in>
+            <in>pgsContext.cpp</in>
+            <in>pgsDriver.cpp</in>
+            <in>pgsMapm.cpp</in>
+            <in>pgsThread.cpp</in>
+            <in>pgsUtilities.cpp</in>
+          </df>
+          <in>lex.pgs.cc</in>
+          <in>parser.tab.cc</in>
+          <in>pgsApplication.cpp</in>
+        </df>
+        <df name="schema">
+          <df name=".deps">
+          </df>
+          <in>edbPackage.cpp</in>
+          <in>edbPackageFunction.cpp</in>
+          <in>edbPackageVariable.cpp</in>
+          <in>edbPrivateSynonym.cpp</in>
+          <in>edbResourceGroup.cpp</in>
+          <in>edbSynonym.cpp</in>
+          <in>gpExtTable.cpp</in>
+          <in>gpPartition.cpp</in>
+          <in>gpResQueue.cpp</in>
+          <in>pgAggregate.cpp</in>
+          <in>pgCast.cpp</in>
+          <in>pgCatalogObject.cpp</in>
+          <in>pgCheck.cpp</in>
+          <in>pgCollation.cpp</in>
+          <in>pgCollection.cpp</in>
+          <in>pgColumn.cpp</in>
+          <in>pgConstraints.cpp</in>
+          <in>pgConversion.cpp</in>
+          <in>pgDatabase.cpp</in>
+          <in>pgDatatype.cpp</in>
+          <in>pgDomain.cpp</in>
+          <in>pgEventTrigger.cpp</in>
+          <in>pgExtension.cpp</in>
+          <in>pgForeignDataWrapper.cpp</in>
+          <in>pgForeignKey.cpp</in>
+          <in>pgForeignServer.cpp</in>
+          <in>pgForeignTable.cpp</in>
+          <in>pgFunction.cpp</in>
+          <in>pgGroup.cpp</in>
+          <in>pgIndex.cpp</in>
+          <in>pgIndexConstraint.cpp</in>
+          <in>pgLanguage.cpp</in>
+          <in>pgObject.cpp</in>
+          <in>pgOperator.cpp</in>
+          <in>pgOperatorClass.cpp</in>
+          <in>pgOperatorFamily.cpp</in>
+          <in>pgRole.cpp</in>
+          <in>pgRule.cpp</in>
+          <in>pgSchema.cpp</in>
+          <in>pgSequence.cpp</in>
+          <in>pgServer.cpp</in>
+          <in>pgTable.cpp</in>
+          <in>pgTablespace.cpp</in>
+          <in>pgTextSearchConfiguration.cpp</in>
+          <in>pgTextSearchDictionary.cpp</in>
+          <in>pgTextSearchParser.cpp</in>
+          <in>pgTextSearchTemplate.cpp</in>
+          <in>pgTrigger.cpp</in>
+          <in>pgType.cpp</in>
+          <in>pgUser.cpp</in>
+          <in>pgUserMapping.cpp</in>
+          <in>pgView.cpp</in>
+        </df>
+        <df name="slony">
+          <df name=".deps">
+          </df>
+          <in>dlgRepCluster.cpp</in>
+          <in>dlgRepListen.cpp</in>
+          <in>dlgRepNode.cpp</in>
+          <in>dlgRepPath.cpp</in>
+          <in>dlgRepProperty.cpp</in>
+          <in>dlgRepSequence.cpp</in>
+          <in>dlgRepSet.cpp</in>
+          <in>dlgRepSubscription.cpp</in>
+          <in>dlgRepTable.cpp</in>
+          <in>slCluster.cpp</in>
+          <in>slListen.cpp</in>
+          <in>slNode.cpp</in>
+          <in>slPath.cpp</in>
+          <in>slSequence.cpp</in>
+          <in>slSet.cpp</in>
+          <in>slSubscription.cpp</in>
+          <in>slTable.cpp</in>
+        </df>
+        <df name="ui">
+          <df name=".deps">
+          </df>
+          <in>xrcDialogs.cpp</in>
+        </df>
+        <df name="utils">
+          <df name=".deps">
+          </df>
+          <in>csvfiles.cpp</in>
+          <in>factory.cpp</in>
+          <in>favourites.cpp</in>
+          <in>macros.cpp</in>
+          <in>misc.cpp</in>
+          <in>pgconfig.cpp</in>
+          <in>registry.cpp</in>
+          <in>sshTunnel.cpp</in>
+          <in>sysLogger.cpp</in>
+          <in>sysProcess.cpp</in>
+          <in>sysSettings.cpp</in>
+          <in>tab-complete.inc</in>
+          <in>tabcomplete.c</in>
+          <in>utffile.cpp</in>
+        </df>
+        <in>pgAdmin3.cpp</in>
+        <in>precomp.cpp</in>
+      </df>
+      <df name="pkg">
+        <df name="debian">
+        </df>
+        <df name="mac">
+        </df>
+        <df name="mandrake">
+        </df>
+        <df name="redhat">
+        </df>
+        <df name="slackware">
+        </df>
+        <df name="src">
+        </df>
+        <df name="suse">
+        </df>
+        <df name="win32">
+          <df name="resources">
+          </df>
+          <df name="src">
+          </df>
+          <df name="utils">
+          </df>
+        </df>
+      </df>
+      <df name="plugins.d">
+      </df>
+      <df name="xtra">
+        <df name="png2c">
+          <df name=".deps">
+          </df>
+          <in>png2c.c</in>
+        </df>
+        <df name="wx-build">
+          <df name="patches">
+          </df>
+        </df>
+      </df>
+      <in>config.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

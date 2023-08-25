@@ -1,0 +1,5810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="pgadmin">
+        <df name="agent">
+          <in>dlgJob.cpp</in>
+          <in>dlgSchedule.cpp</in>
+          <in>dlgStep.cpp</in>
+          <in>pgaJob.cpp</in>
+          <in>pgaSchedule.cpp</in>
+          <in>pgaStep.cpp</in>
+        </df>
+        <df name="ctl">
+          <in>calbox.cpp</in>
+          <in>ctlAuiNotebook.cpp</in>
+          <in>ctlCheckTreeView.cpp</in>
+          <in>ctlColourPicker.cpp</in>
+          <in>ctlComboBox.cpp</in>
+          <in>ctlDefaultSecurityPanel.cpp</in>
+          <in>ctlListView.cpp</in>
+          <in>ctlMenuToolbar.cpp</in>
+          <in>ctlProgressStatusBar.cpp</in>
+          <in>ctlSQLBox.cpp</in>
+          <in>ctlSQLGrid.cpp</in>
+          <in>ctlSQLResult.cpp</in>
+          <in>ctlSeclabelPanel.cpp</in>
+          <in>ctlSecurityPanel.cpp</in>
+          <in>ctlTree.cpp</in>
+          <in>explainCanvas.cpp</in>
+          <in>explainShape.cpp</in>
+          <in>timespin.cpp</in>
+          <in>xh_calb.cpp</in>
+          <in>xh_ctlchecktreeview.cpp</in>
+          <in>xh_ctlcolourpicker.cpp</in>
+          <in>xh_ctlcombo.cpp</in>
+          <in>xh_ctltree.cpp</in>
+          <in>xh_sqlbox.cpp</in>
+          <in>xh_timespin.cpp</in>
+        </df>
+        <df name="db">
+          <in>keywords.c</in>
+          <in>pgConn.cpp</in>
+          <in>pgQueryThread.cpp</in>
+          <in>pgSet.cpp</in>
+        </df>
+        <df name="dd">
+          <df name="dditems">
+            <df name="figures">
+              <df name="xml">
+                <in>ddXmlStorage.cpp</in>
+              </df>
+              <in>ddColumnFigure.cpp</in>
+              <in>ddColumnKindIcon.cpp</in>
+              <in>ddColumnOptionIcon.cpp</in>
+              <in>ddRelationshipFigure.cpp</in>
+              <in>ddRelationshipItem.cpp</in>
+              <in>ddRelationshipTerminal.cpp</in>
+              <in>ddTableFigure.cpp</in>
+              <in>ddTextTableItemFigure.cpp</in>
+            </df>
+            <df name="handles">
+              <in>ddAddColButtonHandle.cpp</in>
+              <in>ddAddFkButtonHandle.cpp</in>
+              <in>ddMinMaxTableButtonHandle.cpp</in>
+              <in>ddRemoveTableButtonHandle.cpp</in>
+              <in>ddScrollBarHandle.cpp</in>
+              <in>ddSouthTableSizeHandle.cpp</in>
+            </df>
+            <df name="locators">
+              <in>ddAddColLocator.cpp</in>
+              <in>ddAddFkLocator.cpp</in>
+              <in>ddMinMaxTableLocator.cpp</in>
+              <in>ddRemoveTableLocator.cpp</in>
+              <in>ddScrollBarTableLocator.cpp</in>
+              <in>ddTableBottomLocator.cpp</in>
+            </df>
+            <df name="tools">
+              <in>ddColumnFigureTool.cpp</in>
+              <in>ddColumnTextTool.cpp</in>
+            </df>
+            <df name="utilities">
+              <in>ddPrecisionScaleDialog.cpp</in>
+              <in>ddSelectKindFksDialog.cpp</in>
+              <in>ddTableNameDialog.cpp</in>
+            </df>
+          </df>
+          <df name="ddmodel">
+            <in>ddBrowserDataContainer.cpp</in>
+            <in>ddDBReverseEnginering.cpp</in>
+            <in>ddDatabaseDesign.cpp</in>
+            <in>ddDrawingEditor.cpp</in>
+            <in>ddDrawingView.cpp</in>
+            <in>ddGenerationWizard.cpp</in>
+            <in>ddModelBrowser.cpp</in>
+          </df>
+        </df>
+        <df name="debugger">
+          <in>ctlMessageWindow.cpp</in>
+          <in>ctlResultGrid.cpp</in>
+          <in>ctlStackWindow.cpp</in>
+          <in>ctlTabWindow.cpp</in>
+          <in>ctlVarWindow.cpp</in>
+          <in>dbgBreakPoint.cpp</in>
+          <in>dbgController.cpp</in>
+          <in>dbgEvents.cpp</in>
+          <in>dbgModel.cpp</in>
+          <in>dbgTargetInfo.cpp</in>
+          <in>debugger.cpp</in>
+          <in>dlgDirectDbg.cpp</in>
+          <in>frmDebugger.cpp</in>
+        </df>
+        <df name="dlg">
+          <in>dlgAddFavourite.cpp</in>
+          <in>dlgAggregate.cpp</in>
+          <in>dlgCast.cpp</in>
+          <in>dlgCheck.cpp</in>
+          <in>dlgClasses.cpp</in>
+          <in>dlgCollation.cpp</in>
+          <in>dlgColumn.cpp</in>
+          <in>dlgConnect.cpp</in>
+          <in>dlgConversion.cpp</in>
+          <in>dlgDatabase.cpp</in>
+          <in>dlgDomain.cpp</in>
+          <in>dlgEditGridOptions.cpp</in>
+          <in>dlgEventTrigger.cpp</in>
+          <in>dlgExtTable.cpp</in>
+          <in>dlgExtension.cpp</in>
+          <in>dlgFindReplace.cpp</in>
+          <in>dlgForeignDataWrapper.cpp</in>
+          <in>dlgForeignKey.cpp</in>
+          <in>dlgForeignServer.cpp</in>
+          <in>dlgForeignTable.cpp</in>
+          <in>dlgFunction.cpp</in>
+          <in>dlgGroup.cpp</in>
+          <in>dlgHbaConfig.cpp</in>
+          <in>dlgIndex.cpp</in>
+          <in>dlgIndexConstraint.cpp</in>
+          <in>dlgLanguage.cpp</in>
+          <in>dlgMainConfig.cpp</in>
+          <in>dlgManageFavourites.cpp</in>
+          <in>dlgManageMacros.cpp</in>
+          <in>dlgMoveTablespace.cpp</in>
+          <in>dlgOperator.cpp</in>
+          <in>dlgPackage.cpp</in>
+          <in>dlgPgpassConfig.cpp</in>
+          <in>dlgProperty.cpp</in>
+          <in>dlgReassignDropOwned.cpp</in>
+          <in>dlgResourceGroup.cpp</in>
+          <in>dlgRole.cpp</in>
+          <in>dlgRule.cpp</in>
+          <in>dlgSchema.cpp</in>
+          <in>dlgSearchObject.cpp</in>
+          <in>dlgSelectConnection.cpp</in>
+          <in>dlgSelectDatabase.cpp</in>
+          <in>dlgSequence.cpp</in>
+          <in>dlgServer.cpp</in>
+          <in>dlgSynonym.cpp</in>
+          <in>dlgTable.cpp</in>
+          <in>dlgTablespace.cpp</in>
+          <in>dlgTextSearchConfiguration.cpp</in>
+          <in>dlgTextSearchDictionary.cpp</in>
+          <in>dlgTextSearchParser.cpp</in>
+          <in>dlgTextSearchTemplate.cpp</in>
+          <in>dlgTrigger.cpp</in>
+          <in>dlgType.cpp</in>
+          <in>dlgUser.cpp</in>
+          <in>dlgUserMapping.cpp</in>
+          <in>dlgView.cpp</in>
+        </df>
+        <df name="frm">
+          <in>events.cpp</in>
+          <in>frmAbout.cpp</in>
+          <in>frmBackup.cpp</in>
+          <in>frmBackupGlobals.cpp</in>
+          <in>frmBackupServer.cpp</in>
+          <in>frmConfig.cpp</in>
+          <in>frmDatabaseDesigner.cpp</in>
+          <in>frmEditGrid.cpp</in>
+          <in>frmExport.cpp</in>
+          <in>frmGrantWizard.cpp</in>
+          <in>frmHbaConfig.cpp</in>
+          <in>frmHint.cpp</in>
+          <in>frmImport.cpp</in>
+          <in>frmMain.cpp</in>
+          <in>frmMainConfig.cpp</in>
+          <in>frmMaintenance.cpp</in>
+          <in>frmOptions.cpp</in>
+          <in>frmPassword.cpp</in>
+          <in>frmPgpassConfig.cpp</in>
+          <in>frmQuery.cpp</in>
+          <in>frmReport.cpp</in>
+          <in>frmRestore.cpp</in>
+          <in>frmSplash.cpp</in>
+          <in>frmStatus.cpp</in>
+          <in>plugins.cpp</in>
+        </df>
+        <df name="gqb">
+          <in>gqbArrayCollection.cpp</in>
+          <in>gqbBrowser.cpp</in>
+          <in>gqbCollection.cpp</in>
+          <in>gqbColumn.cpp</in>
+          <in>gqbController.cpp</in>
+          <in>gqbDatabase.cpp</in>
+          <in>gqbGraphSimple.cpp</in>
+          <in>gqbGridJoinTable.cpp</in>
+          <in>gqbGridOrderTable.cpp</in>
+          <in>gqbGridProjTable.cpp</in>
+          <in>gqbGridRestTable.cpp</in>
+          <in>gqbModel.cpp</in>
+          <in>gqbObject.cpp</in>
+          <in>gqbObjectCollection.cpp</in>
+          <in>gqbQueryObjs.cpp</in>
+          <in>gqbSchema.cpp</in>
+          <in>gqbTable.cpp</in>
+          <in>gqbView.cpp</in>
+          <in>gqbViewPanels.cpp</in>
+        </df>
+        <df name="hotdraw">
+          <df name="connectors">
+            <in>hdChopBoxConnector.cpp</in>
+            <in>hdIConnector.cpp</in>
+            <in>hdLocatorConnector.cpp</in>
+            <in>hdStickyRectangleConnector.cpp</in>
+          </df>
+          <df name="figures">
+            <df name="defaultAttributes">
+              <in>hdFillAttribute.cpp</in>
+              <in>hdFontAttribute.cpp</in>
+              <in>hdFontColorAttribute.cpp</in>
+              <in>hdLineAttribute.cpp</in>
+            </df>
+            <df name="xml">
+              <in>hdStorage.cpp</in>
+            </df>
+            <in>hdAbstractFigure.cpp</in>
+            <in>hdAbstractMenuFigure.cpp</in>
+            <in>hdAttribute.cpp</in>
+            <in>hdAttributeFigure.cpp</in>
+            <in>hdBitmapFigure.cpp</in>
+            <in>hdCompositeFigure.cpp</in>
+            <in>hdIConnectionFigure.cpp</in>
+            <in>hdIFigure.cpp</in>
+            <in>hdLineConnection.cpp</in>
+            <in>hdLineTerminal.cpp</in>
+            <in>hdPolyLineFigure.cpp</in>
+            <in>hdRectangleFigure.cpp</in>
+            <in>hdSimpleTextFigure.cpp</in>
+          </df>
+          <df name="handles">
+            <in>hdButtonHandle.cpp</in>
+            <in>hdChangeConnectionEndHandle.cpp</in>
+            <in>hdChangeConnectionHandle.cpp</in>
+            <in>hdChangeConnectionStartHandle.cpp</in>
+            <in>hdIHandle.cpp</in>
+            <in>hdLineConnectionHandle.cpp</in>
+            <in>hdLocatorHandle.cpp</in>
+            <in>hdPolyLineHandle.cpp</in>
+          </df>
+          <df name="locators">
+            <in>hdILocator.cpp</in>
+            <in>hdPolyLineLocator.cpp</in>
+          </df>
+          <df name="main">
+            <in>hdDrawing.cpp</in>
+            <in>hdDrawingEditor.cpp</in>
+            <in>hdDrawingView.cpp</in>
+          </df>
+          <df name="tools">
+            <in>hdAbstractTool.cpp</in>
+            <in>hdCanvasMenuTool.cpp</in>
+            <in>hdCompositeFigureTool.cpp</in>
+            <in>hdConnectionCreationTool.cpp</in>
+            <in>hdCreationTool.cpp</in>
+            <in>hdDragCreationTool.cpp</in>
+            <in>hdDragTrackerTool.cpp</in>
+            <in>hdFigureTool.cpp</in>
+            <in>hdHandleTrackerTool.cpp</in>
+            <in>hdITool.cpp</in>
+            <in>hdMenuTool.cpp</in>
+            <in>hdPolyLineFigureTool.cpp</in>
+            <in>hdSelectAreaTool.cpp</in>
+            <in>hdSelectionTool.cpp</in>
+            <in>hdSimpleTextTool.cpp</in>
+          </df>
+          <df name="utilities">
+            <in>hdArrayCollection.cpp</in>
+            <in>hdCollection.cpp</in>
+            <in>hdGeometry.cpp</in>
+            <in>hdKeyEvent.cpp</in>
+            <in>hdMouseEvent.cpp</in>
+            <in>hdMultiPosRect.cpp</in>
+            <in>hdPoint.cpp</in>
+            <in>hdRect.cpp</in>
+            <in>hdRemoveDeleteDialog.cpp</in>
+          </df>
+        </df>
+        <df name="ogl">
+          <in>basic.cpp</in>
+          <in>basic2.cpp</in>
+          <in>bmpshape.cpp</in>
+          <in>canvas.cpp</in>
+          <in>composit.cpp</in>
+          <in>constrnt.cpp</in>
+          <in>divided.cpp</in>
+          <in>drawn.cpp</in>
+          <in>lines.cpp</in>
+          <in>mfutils.cpp</in>
+          <in>ogldiag.cpp</in>
+          <in>oglmisc.cpp</in>
+        </df>
+        <df name="pgscript">
+          <df name="exceptions">
+            <in>pgsArithmeticException.cpp</in>
+            <in>pgsAssertException.cpp</in>
+            <in>pgsBreakException.cpp</in>
+            <in>pgsCastException.cpp</in>
+            <in>pgsContinueException.cpp</in>
+            <in>pgsException.cpp</in>
+            <in>pgsInterruptException.cpp</in>
+            <in>pgsParameterException.cpp</in>
+          </df>
+          <df name="expressions">
+            <in>pgsAnd.cpp</in>
+            <in>pgsAssign.cpp</in>
+            <in>pgsAssignToRecord.cpp</in>
+            <in>pgsCast.cpp</in>
+            <in>pgsColumns.cpp</in>
+            <in>pgsDifferent.cpp</in>
+            <in>pgsEqual.cpp</in>
+            <in>pgsExecute.cpp</in>
+            <in>pgsExpression.cpp</in>
+            <in>pgsGenDate.cpp</in>
+            <in>pgsGenDateTime.cpp</in>
+            <in>pgsGenDictionary.cpp</in>
+            <in>pgsGenInt.cpp</in>
+            <in>pgsGenReal.cpp</in>
+            <in>pgsGenReference.cpp</in>
+            <in>pgsGenRegex.cpp</in>
+            <in>pgsGenString.cpp</in>
+            <in>pgsGenTime.cpp</in>
+            <in>pgsGreater.cpp</in>
+            <in>pgsGreaterEqual.cpp</in>
+            <in>pgsIdent.cpp</in>
+            <in>pgsIdentRecord.cpp</in>
+            <in>pgsLines.cpp</in>
+            <in>pgsLower.cpp</in>
+            <in>pgsLowerEqual.cpp</in>
+            <in>pgsMinus.cpp</in>
+            <in>pgsModulo.cpp</in>
+            <in>pgsNegate.cpp</in>
+            <in>pgsNot.cpp</in>
+            <in>pgsOperation.cpp</in>
+            <in>pgsOr.cpp</in>
+            <in>pgsOver.cpp</in>
+            <in>pgsParenthesis.cpp</in>
+            <in>pgsPlus.cpp</in>
+            <in>pgsRemoveLine.cpp</in>
+            <in>pgsTimes.cpp</in>
+            <in>pgsTrim.cpp</in>
+          </df>
+          <df name="generators">
+            <in>pgsDateGen.cpp</in>
+            <in>pgsDateTimeGen.cpp</in>
+            <in>pgsDictionaryGen.cpp</in>
+            <in>pgsIntegerGen.cpp</in>
+            <in>pgsNumberGen.cpp</in>
+            <in>pgsObjectGen.cpp</in>
+            <in>pgsRealGen.cpp</in>
+            <in>pgsReferenceGen.cpp</in>
+            <in>pgsRegexGen.cpp</in>
+            <in>pgsStringGen.cpp</in>
+            <in>pgsTimeGen.cpp</in>
+          </df>
+          <df name="objects">
+            <in>pgsGenerator.cpp</in>
+            <in>pgsNumber.cpp</in>
+            <in>pgsRecord.cpp</in>
+            <in>pgsString.cpp</in>
+            <in>pgsVariable.cpp</in>
+          </df>
+          <df name="statements">
+            <in>pgsAssertStmt.cpp</in>
+            <in>pgsBreakStmt.cpp</in>
+            <in>pgsContinueStmt.cpp</in>
+            <in>pgsDeclareRecordStmt.cpp</in>
+            <in>pgsExpressionStmt.cpp</in>
+            <in>pgsIfStmt.cpp</in>
+            <in>pgsPrintStmt.cpp</in>
+            <in>pgsProgram.cpp</in>
+            <in>pgsStmt.cpp</in>
+            <in>pgsStmtList.cpp</in>
+            <in>pgsWhileStmt.cpp</in>
+          </df>
+          <df name="utilities">
+            <df name="m_apm">
+              <in>mapm5sin.cpp</in>
+              <in>mapm_add.cpp</in>
+              <in>mapm_cpi.cpp</in>
+              <in>mapm_div.cpp</in>
+              <in>mapm_exp.cpp</in>
+              <in>mapm_fam.cpp</in>
+              <in>mapm_fft.cpp</in>
+              <in>mapm_flr.cpp</in>
+              <in>mapm_fpf.cpp</in>
+              <in>mapm_gcd.cpp</in>
+              <in>mapm_lg2.cpp</in>
+              <in>mapm_lg3.cpp</in>
+              <in>mapm_lg4.cpp</in>
+              <in>mapm_log.cpp</in>
+              <in>mapm_mul.cpp</in>
+              <in>mapm_pow.cpp</in>
+              <in>mapm_rcp.cpp</in>
+              <in>mapm_rnd.cpp</in>
+              <in>mapm_set.cpp</in>
+              <in>mapm_sin.cpp</in>
+              <in>mapmasin.cpp</in>
+              <in>mapmasn0.cpp</in>
+              <in>mapmcbrt.cpp</in>
+              <in>mapmcnst.cpp</in>
+              <in>mapmfact.cpp</in>
+              <in>mapmfmul.cpp</in>
+              <in>mapmgues.cpp</in>
+              <in>mapmhasn.cpp</in>
+              <in>mapmhsin.cpp</in>
+              <in>mapmipwr.cpp</in>
+              <in>mapmistr.cpp</in>
+              <in>mapmpwr2.cpp</in>
+              <in>mapmrsin.cpp</in>
+              <in>mapmsqrt.cpp</in>
+              <in>mapmstck.cpp</in>
+              <in>mapmutil.cpp</in>
+              <in>mapmutl1.cpp</in>
+              <in>mapmutl2.cpp</in>
+            </df>
+            <in>pgsAlloc.cpp</in>
+            <in>pgsContext.cpp</in>
+            <in>pgsDriver.cpp</in>
+            <in>pgsMapm.cpp</in>
+            <in>pgsThread.cpp</in>
+            <in>pgsUtilities.cpp</in>
+          </df>
+          <in>lex.pgs.cc</in>
+          <in>parser.tab.cc</in>
+          <in>pgsApplication.cpp</in>
+        </df>
+        <df name="schema">
+          <in>edbPackage.cpp</in>
+          <in>edbPackageFunction.cpp</in>
+          <in>edbPackageVariable.cpp</in>
+          <in>edbPrivateSynonym.cpp</in>
+          <in>edbResourceGroup.cpp</in>
+          <in>edbSynonym.cpp</in>
+          <in>gpExtTable.cpp</in>
+          <in>gpPartition.cpp</in>
+          <in>gpResQueue.cpp</in>
+          <in>pgAggregate.cpp</in>
+          <in>pgCast.cpp</in>
+          <in>pgCatalogObject.cpp</in>
+          <in>pgCheck.cpp</in>
+          <in>pgCollation.cpp</in>
+          <in>pgCollection.cpp</in>
+          <in>pgColumn.cpp</in>
+          <in>pgConstraints.cpp</in>
+          <in>pgConversion.cpp</in>
+          <in>pgDatabase.cpp</in>
+          <in>pgDatatype.cpp</in>
+          <in>pgDomain.cpp</in>
+          <in>pgEventTrigger.cpp</in>
+          <in>pgExtension.cpp</in>
+          <in>pgForeignDataWrapper.cpp</in>
+          <in>pgForeignKey.cpp</in>
+          <in>pgForeignServer.cpp</in>
+          <in>pgForeignTable.cpp</in>
+          <in>pgFunction.cpp</in>
+          <in>pgGroup.cpp</in>
+          <in>pgIndex.cpp</in>
+          <in>pgIndexConstraint.cpp</in>
+          <in>pgLanguage.cpp</in>
+          <in>pgObject.cpp</in>
+          <in>pgOperator.cpp</in>
+          <in>pgOperatorClass.cpp</in>
+          <in>pgOperatorFamily.cpp</in>
+          <in>pgRole.cpp</in>
+          <in>pgRule.cpp</in>
+          <in>pgSchema.cpp</in>
+          <in>pgSequence.cpp</in>
+          <in>pgServer.cpp</in>
+          <in>pgTable.cpp</in>
+          <in>pgTablespace.cpp</in>
+          <in>pgTextSearchConfiguration.cpp</in>
+          <in>pgTextSearchDictionary.cpp</in>
+          <in>pgTextSearchParser.cpp</in>
+          <in>pgTextSearchTemplate.cpp</in>
+          <in>pgTrigger.cpp</in>
+          <in>pgType.cpp</in>
+          <in>pgUser.cpp</in>
+          <in>pgUserMapping.cpp</in>
+          <in>pgView.cpp</in>
+        </df>
+        <df name="slony">
+          <in>dlgRepCluster.cpp</in>
+          <in>dlgRepListen.cpp</in>
+          <in>dlgRepNode.cpp</in>
+          <in>dlgRepPath.cpp</in>
+          <in>dlgRepProperty.cpp</in>
+          <in>dlgRepSequence.cpp</in>
+          <in>dlgRepSet.cpp</in>
+          <in>dlgRepSubscription.cpp</in>
+          <in>dlgRepTable.cpp</in>
+          <in>slCluster.cpp</in>
+          <in>slListen.cpp</in>
+          <in>slNode.cpp</in>
+          <in>slPath.cpp</in>
+          <in>slSequence.cpp</in>
+          <in>slSet.cpp</in>
+          <in>slSubscription.cpp</in>
+          <in>slTable.cpp</in>
+        </df>
+        <df name="ui">
+          <in>xrcDialogs.cpp</in>
+        </df>
+        <df name="utils">
+          <in>csvfiles.cpp</in>
+          <in>factory.cpp</in>
+          <in>favourites.cpp</in>
+          <in>macros.cpp</in>
+          <in>misc.cpp</in>
+          <in>pgconfig.cpp</in>
+          <in>registry.cpp</in>
+          <in>sshTunnel.cpp</in>
+          <in>sysLogger.cpp</in>
+          <in>sysProcess.cpp</in>
+          <in>sysSettings.cpp</in>
+          <in>tabcomplete.c</in>
+          <in>utffile.cpp</in>
+        </df>
+        <in>pgAdmin3.cpp</in>
+        <in>precomp.cpp</in>
+      </df>
+      <df name="xtra">
+        <df name="png2c">
+          <in>png2c.c</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2"/>
+        <element flagsID="1" commonFlags="-g -O2"/>
+        <element flagsID="2" commonFlags="-std=c++14"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+<<<<<<< Updated upstream
+=======
+          <cTool>
+            <preprocessorList>
+              <Elem>DATABASEDESIGNER</Elem>
+              <Elem>EMBED_XRC</Elem>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>HAVE_CONNINFO_PARSE</Elem>
+              <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+              <Elem>LIBSSH2_OPENSSL</Elem>
+              <Elem>PG_SSL</Elem>
+              <Elem>WXUSINGDLL</Elem>
+              <Elem>_FILE_OFFSET_BITS=64</Elem>
+              <Elem>__WXGTK__</Elem>
+            </preprocessorList>
+          </cTool>
+>>>>>>> Stashed changes
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>bash bootstrap
+./configure CC=${IDE_CC} CXX=${IDE_CXX} CFLAGS="-g3 -gdwarf-2" CXXFLAGS="-g3 -gdwarf-2"  --enable-databasedesigner --with-pgsql=/usr/lib/postgresql13</preBuildCommand>
+          <preBuildFirst>true</preBuildFirst>
+        </preBuild>
+      </makefileType>
+<<<<<<< Updated upstream
+=======
+      <folder path="0/pgadmin">
+        <cTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+>>>>>>> Stashed changes
+      <folder path="0/pgadmin/agent">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+<<<<<<< Updated upstream
+      <folder path="0/pgadmin/db">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/dd">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/debugger">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/dlg">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/frm">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/gqb">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/hotdraw">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/ogl">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/pgscript">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/schema">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/slony">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/ui">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/utils">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/xtra">
+        <cTool>
+          <incDir>
+            <pElem>xtra/png2c</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+      <folder path="0/pgadmin/ctl">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/db">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/dd">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/debugger">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/dlg">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/frm">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/gqb">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/hotdraw">
+        <ccTool>
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+<<<<<<< Updated upstream
+=======
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+>>>>>>> Stashed changes
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+<<<<<<< Updated upstream
+        </cTool>
+      </folder>
+      <item path="pgadmin/agent/dlgJob.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/dlgSchedule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/dlgStep.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaJob.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaSchedule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaStep.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/calbox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+        </ccTool>
+      </folder>
+      <folder path="0/pgadmin/ogl">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlAuiNotebook.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+      </folder>
+      <folder path="0/pgadmin/pgscript">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlCheckTreeView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+      </folder>
+      <folder path="0/pgadmin/schema">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlColourPicker.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+      </folder>
+      <folder path="0/pgadmin/slony">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlComboBox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+      </folder>
+      <folder path="0/pgadmin/ui">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlDefaultSecurityPanel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlListView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+=======
+      </folder>
+      <folder path="0/pgadmin/utils">
+        <ccTool>
+>>>>>>> Stashed changes
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+<<<<<<< Updated upstream
+      </item>
+      <item path="pgadmin/ctl/ctlMenuToolbar.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+=======
+      </folder>
+      <folder path="0/xtra">
+        <cTool>
+          <incDir>
+            <pElem>xtra/png2c</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="pgadmin/agent/dlgJob.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/dlgSchedule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/dlgStep.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaJob.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaSchedule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/agent/pgaStep.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/calbox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlAuiNotebook.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlCheckTreeView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlColourPicker.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlComboBox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlDefaultSecurityPanel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlListView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlMenuToolbar.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlProgressStatusBar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLBox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLGrid.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLResult.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSeclabelPanel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSecurityPanel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlTree.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/explainCanvas.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/explainShape.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/timespin.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_calb.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLBox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLGrid.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSQLResult.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSeclabelPanel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlSecurityPanel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/ctlTree.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/explainCanvas.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/explainShape.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/timespin.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_calb.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctlchecktreeview.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctlcolourpicker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctlcombo.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctltree.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_sqlbox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_timespin.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/keywords.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="pgadmin/db/pgConn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/pgQueryThread.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/pgSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctlcombo.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_ctltree.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_sqlbox.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ctl/xh_timespin.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/keywords.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="pgadmin/db/pgConn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/pgQueryThread.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/db/pgSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddColumnFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddColumnKindIcon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddColumnOptionIcon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddRelationshipFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddRelationshipItem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddRelationshipTerminal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddTableFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/ddTextTableItemFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/figures/xml/ddXmlStorage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddAddColButtonHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddAddFkButtonHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddMinMaxTableButtonHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddRemoveTableButtonHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddScrollBarHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/handles/ddSouthTableSizeHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddAddColLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddAddFkLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddMinMaxTableLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddRemoveTableLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddScrollBarTableLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/locators/ddTableBottomLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/tools/ddColumnFigureTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/tools/ddColumnTextTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/utilities/ddPrecisionScaleDialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/utilities/ddSelectKindFksDialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/dditems/utilities/ddTableNameDialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddBrowserDataContainer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddDBReverseEnginering.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddDatabaseDesign.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddDrawingEditor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddDrawingView.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddGenerationWizard.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dd/ddmodel/ddModelBrowser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlMessageWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlResultGrid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlStackWindow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlTabWindow.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlVarWindow.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlTabWindow.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/ctlVarWindow.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgBreakPoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgController.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgEvents.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgModel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgEvents.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgModel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dbgTargetInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/debugger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dlgDirectDbg.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/frmDebugger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgAddFavourite.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgAggregate.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCast.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCheck.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgClasses.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCollation.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgConnect.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgConversion.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgDomain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/debugger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/dlgDirectDbg.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/debugger/frmDebugger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgAddFavourite.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgAggregate.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCast.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCheck.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgClasses.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgCollation.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgConnect.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgConversion.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgDomain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgEditGridOptions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgEventTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgExtTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgExtension.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgFindReplace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgEventTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgExtTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgExtension.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgFindReplace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignDataWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignKey.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgFunction.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgHbaConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgIndex.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignKey.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgForeignTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgFunction.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgHbaConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgIndex.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgIndexConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgLanguage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgMainConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgLanguage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgMainConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgManageFavourites.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgManageMacros.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgMoveTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgOperator.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgPackage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgPgpassConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgProperty.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgManageMacros.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgMoveTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgOperator.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgPackage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgPgpassConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgProperty.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgReassignDropOwned.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgResourceGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgRole.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSearchObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgResourceGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgRole.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSearchObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSelectConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSelectDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSynonym.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSelectDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgSynonym.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTextSearchConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTextSearchDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTextSearchParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTextSearchTemplate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgType.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgUser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgUserMapping.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/events.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmAbout.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackupGlobals.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackupServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgType.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgUser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgUserMapping.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/dlg/dlgView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/events.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmAbout.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackupGlobals.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmBackupServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmDatabaseDesigner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmEditGrid.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmExport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmGrantWizard.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmHbaConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmHint.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmImport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMainConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMaintenance.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmOptions.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmPassword.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmPgpassConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmQuery.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmReport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmRestore.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmSplash.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmStatus.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/plugins.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmEditGrid.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmExport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmGrantWizard.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmHbaConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmHint.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmImport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMainConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmMaintenance.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmOptions.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmPassword.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmPgpassConfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmQuery.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmReport.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmRestore.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmSplash.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/frmStatus.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/frm/plugins.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbArrayCollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbBrowser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbCollection.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbController.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGraphSimple.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridJoinTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridOrderTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridProjTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridRestTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbModel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbBrowser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbCollection.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbController.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGraphSimple.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridJoinTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridOrderTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridProjTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbGridRestTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbModel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbObjectCollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbQueryObjs.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbViewPanels.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbQueryObjs.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/gqb/gqbViewPanels.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/connectors/hdChopBoxConnector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/connectors/hdIConnector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/connectors/hdLocatorConnector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/connectors/hdStickyRectangleConnector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/defaultAttributes/hdFillAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/defaultAttributes/hdFontAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/defaultAttributes/hdFontColorAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/defaultAttributes/hdLineAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdAbstractFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdAbstractMenuFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdAttributeFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdBitmapFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdCompositeFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdIConnectionFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdIFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdLineConnection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdLineTerminal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdPolyLineFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdRectangleFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/hdSimpleTextFigure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/figures/xml/hdStorage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdButtonHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdChangeConnectionEndHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdChangeConnectionHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdChangeConnectionStartHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdIHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdLineConnectionHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdLocatorHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/handles/hdPolyLineHandle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/locators/hdILocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/locators/hdPolyLineLocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/main/hdDrawing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/main/hdDrawingEditor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/main/hdDrawingView.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdAbstractTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdCanvasMenuTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdCompositeFigureTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdConnectionCreationTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdCreationTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdDragCreationTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdDragTrackerTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdFigureTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdHandleTrackerTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdITool.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdITool.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdMenuTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdPolyLineFigureTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdSelectAreaTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdSelectionTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/tools/hdSimpleTextTool.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdArrayCollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdCollection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdGeometry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdKeyEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdMouseEvent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdMultiPosRect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdPoint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdRect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/hotdraw/utilities/hdRemoveDeleteDialog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/basic.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/basic2.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/bmpshape.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/canvas.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/composit.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/constrnt.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/divided.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/drawn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/lines.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/mfutils.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/ogldiag.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/oglmisc.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/basic.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/basic2.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/bmpshape.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/canvas.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/composit.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/constrnt.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/divided.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/drawn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/lines.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/mfutils.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/ogldiag.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ogl/oglmisc.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgAdmin3.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>pgadmin</pElem>
+            <pElem>.</pElem>
+            <pElem>pgadmin/include</pElem>
+            <pElem>/usr/include/pgsql</pElem>
+            <pElem>/usr/include/pgsql/server</pElem>
+<<<<<<< Updated upstream
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+=======
+            <pElem>/usr/lib64/wx/include/gtk3-unicode-3.1</pElem>
+>>>>>>> Stashed changes
+            <pElem>/usr/include/wx-3.1</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DATABASEDESIGNER</Elem>
+            <Elem>DATA_DIR="/usr/local/pgadmin3/share/pgadmin3/"</Elem>
+            <Elem>EMBED_XRC</Elem>
+            <Elem>HAVE_CONFIG_H</Elem>
+            <Elem>HAVE_CONNINFO_PARSE</Elem>
+            <Elem>HAVE_OPENSSL_CRYPTO</Elem>
+            <Elem>LIBSSH2_OPENSSL</Elem>
+            <Elem>PG_SSL</Elem>
+            <Elem>WXUSINGDLL</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+            <Elem>__WXGTK__</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsArithmeticException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsAssertException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsBreakException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsCastException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsContinueException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsInterruptException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/exceptions/pgsParameterException.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsAnd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsAssign.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsAssignToRecord.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsCast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsColumns.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsDifferent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsEqual.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsExecute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsExpression.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenDate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenDateTime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenInt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenReal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenReference.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenRegex.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGenTime.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGreater.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsGreaterEqual.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsIdent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsIdentRecord.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsLines.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsLower.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsLowerEqual.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsMinus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsModulo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsNegate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsNot.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsOperation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsOr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsOver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsParenthesis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsPlus.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsRemoveLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsTimes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/expressions/pgsTrim.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsDateGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsDateTimeGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsDictionaryGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsIntegerGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsNumberGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsObjectGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsRealGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsReferenceGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsRegexGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsStringGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/generators/pgsTimeGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/lex.pgs.cc" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/lex.pgs.cc" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/objects/pgsGenerator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/objects/pgsNumber.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/objects/pgsRecord.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/objects/pgsString.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/objects/pgsVariable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/parser.tab.cc" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/parser.tab.cc" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/pgsApplication.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsAssertStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsBreakStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsContinueStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsDeclareRecordStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsExpressionStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsIfStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsPrintStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsProgram.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsStmtList.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/statements/pgsWhileStmt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm5sin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_add.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_cpi.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_div.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_exp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_fam.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_fft.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_flr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_fpf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_gcd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_lg2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_lg3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_lg4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_log.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_mul.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_pow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_rcp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_rnd.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_set.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapm_sin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmasin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmasn0.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmcbrt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmcnst.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmfact.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmfmul.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmgues.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmhasn.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmhsin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmipwr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmistr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmpwr2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmrsin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmsqrt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmstck.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmutil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmutl1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/m_apm/mapmutl2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsAlloc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsDriver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsMapm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsThread.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/pgscript/utilities/pgsUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/precomp.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>/usr/lib64/wx/include/gtk2-unicode-3.1</pElem>
+            <pElem>/usr/include/wx-3.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>wx-config --cflags</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbPackage.cpp" ex="false" tool="1" flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbPackageFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbPackageVariable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbPrivateSynonym.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbResourceGroup.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbSynonym.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpExtTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpPartition.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpResQueue.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgAggregate.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCast.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/edbSynonym.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpExtTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpPartition.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/gpResQueue.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgAggregate.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCast.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCatalogObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCheck.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCollation.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCollection.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgConstraints.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgConversion.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDatatype.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDomain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgEventTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgExtension.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCheck.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCollation.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgCollection.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgColumn.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgConstraints.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgConversion.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDatabase.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDatatype.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgDomain.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgEventTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgExtension.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignDataWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignKey.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignKey.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignServer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgFunction.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgIndex.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgForeignTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgFunction.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgGroup.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgIndex.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgIndexConstraint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgLanguage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgOperator.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgLanguage.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgObject.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgOperator.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgOperatorClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgOperatorFamily.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgRole.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgRole.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgRule.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgSchema.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgServer.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTablespace.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTextSearchConfiguration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTextSearchDictionary.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTextSearchParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTextSearchTemplate.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgType.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgUser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgUserMapping.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepCluster.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepListen.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepNode.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepPath.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepProperty.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgTrigger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgType.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgUser.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgUserMapping.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/schema/pgView.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepCluster.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepListen.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepNode.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepPath.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepProperty.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepSubscription.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+<<<<<<< Updated upstream
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slCluster.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slListen.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slNode.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slPath.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSubscription.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ui/xrcDialogs.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/csvfiles.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/factory.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/favourites.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/macros.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/misc.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/pgconfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/registry.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sshTunnel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysLogger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysProcess.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysSettings.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/tabcomplete.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="pgadmin/utils/utffile.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="2">
+=======
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/dlgRepTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slCluster.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slListen.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slNode.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slPath.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSequence.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSet.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slSubscription.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/slony/slTable.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/ui/xrcDialogs.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/csvfiles.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/factory.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/favourites.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/macros.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/misc.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/pgconfig.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/registry.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sshTunnel.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysLogger.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysProcess.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/sysSettings.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="pgadmin/utils/tabcomplete.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="pgadmin/utils/utffile.cpp" ex="false" tool="1" flavor2="11">
+        <ccTool flags="0">
+>>>>>>> Stashed changes
+        </ccTool>
+      </item>
+      <item path="xtra/png2c/png2c.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
