@@ -1,0 +1,86 @@
+name: Build AppImage
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-appimage:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout Upstream Code base
+        uses: actions/checkout@v4
+
+      - name: Install Build Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            build-essential autoconf automake libtool \
+            libwxgtk3.2-dev libpq-dev libssl-dev libgcrypt20-dev \
+            libxml2-dev libxslt1-dev libssh2-1-dev imagemagick gsfonts ghostscript fonts-dejavu \
+            libfuse2
+
+      - name: Bootstrap and Configure Build
+        run: |
+          ./bootstrap
+          ./configure --prefix=/usr --with-libgcrypt --with-wx-version=3.2
+
+      - name: Compile and Stage to AppDir
+        run: |
+          # 1. Force the directory to exist first
+          mkdir -p $PWD/AppDir
+          make -j$(nproc)
+          # 2. Force an absolute path for DESTDIR so Autotools places binaries reliably
+          make install DESTDIR=$PWD/AppDir
+
+      - name: Create Desktop Entry and Icon Assets
+        run: |
+          # Ensure subdirectories inside our newly filled AppDir exist
+          mkdir -p $PWD/AppDir/usr/share/applications
+          mkdir -p $PWD/AppDir/usr/share/icons/hicolor/256x256/apps
+
+          printf '%s\n' '[Desktop Entry]' \
+            'Name=pgAdmin III LTS' \
+            'Exec=pgadmin3' \
+            'Icon=pgadmin3' \
+            'Type=Application' \
+            'Categories=Development;Database;' \
+            'Terminal=false' \
+            > $PWD/AppDir/usr/share/applications/pgadmin3.desktop
+
+          # Fallback icon layout logic
+          if [ -f pgadmin/include/images/pgDatabase.xpm ]; then
+            if command -v convert >/dev/null 2>&1; then
+              convert pgadmin/include/images/pgDatabase.xpm $PWD/AppDir/usr/share/icons/hicolor/256x256/apps/pgadmin3.png
+            else
+              magick pgadmin/include/images/pgDatabase.xpm $PWD/AppDir/usr/share/icons/hicolor/256x256/apps/pgadmin3.png
+            fi
+          else
+            FONT_PATH="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+            if command -v convert >/dev/null 2>&1; then
+              convert -size 256x256 xc:blue -gravity center -fill white -font "$FONT_PATH" -pointsize 40 -annotate 0 "pgAdmin3" $PWD/AppDir/usr/share/icons/hicolor/256x256/apps/pgadmin3.png
+            else
+              magick -size 256x256 xc:blue -gravity center -fill white -font "$FONT_PATH" -pointsize 40 -annotate 0 "pgAdmin3" $PWD/AppDir/usr/share/icons/hicolor/256x256/apps/pgadmin3.png
+            fi
+          fi
+
+      - name: Download and Run LinuxDeploy
+        run: |
+          wget -q -O linuxdeploy-x86_64.AppImage \
+            https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+          chmod +x linuxdeploy-x86_64.AppImage
+
+          # Inform linuxdeploy where the binary folder is mapped on the virtual runner
+          export PATH="$PWD/AppDir/usr/bin:$PATH"
+
+          ./linuxdeploy-x86_64.AppImage \
+            --appdir $PWD/AppDir \
+            -d $PWD/AppDir/usr/share/applications/pgadmin3.desktop \
+            -i $PWD/AppDir/usr/share/icons/hicolor/256x256/apps/pgadmin3.png \
+            --output appimage
+
+      - name: Upload AppImage Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pgadmin3-appimage
+          path: "*.AppImage"
